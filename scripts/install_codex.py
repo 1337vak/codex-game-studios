@@ -8,10 +8,10 @@ ROOT = Path(__file__).resolve().parents[1]
 parser = argparse.ArgumentParser(description=__doc__)
 parser.add_argument('--skills-dir', type=Path, default=Path.home() / '.agents/skills')
 args = parser.parse_args()
-source = ROOT / 'skills/game-studio'
+source = ROOT / 'build/game-studio'
 destination = args.skills_dir.expanduser().resolve() / 'game-studio'
 if not (source / 'SKILL.md').is_file():
-    raise SystemExit('Native skill is missing; run scripts/port_codex.py first.')
+    raise SystemExit('Native skill is missing; run scripts/build.py first.')
 if destination.is_symlink() and destination.resolve() == source.resolve():
     status = 'already installed'
 elif destination.exists() or destination.is_symlink():

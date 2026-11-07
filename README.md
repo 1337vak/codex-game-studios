@@ -7,36 +7,37 @@ An unofficial Codex adapter for [Claude Code Game Studios](https://github.com/Do
 Clone this repository, then run:
 
 ```sh
+python3 scripts/build.py
 python3 scripts/validate_port.py
 python3 scripts/install_codex.py
 ```
 
-The installer links `~/.agents/skills/game-studio` to this checkout and refuses to replace existing content. Keep the checkout in place; restart Codex if the skill is not discovered. Use `--skills-dir` to choose another skill directory.
+The installer links `~/.agents/skills/game-studio` to the generated `build/game-studio` directory and refuses to replace existing content. Keep the checkout in place; restart Codex if the skill is not discovered. Use `--skills-dir` to choose another skill directory.
 
 ## Use
 
 Ask Codex to use `$game-studio` for game design, implementation, art, animation, audio, or review. For example: “Use $game-studio to review this game's animation and fix visible defects.”
 
 ```sh
-python3 skills/game-studio/scripts/studio.py catalog technical-artist
-python3 skills/game-studio/scripts/studio.py inspect --project /path/to/game
-python3 skills/game-studio/scripts/studio.py asset-audit --root /path/to/assets
+python3 build/game-studio/scripts/studio.py catalog technical-artist
+python3 build/game-studio/scripts/studio.py inspect --project /path/to/game
+python3 build/game-studio/scripts/studio.py asset-audit --root /path/to/assets
 ```
 
 The helper reports observations about PNG, WAV and JSON files; it does not replace viewing the game or listening to audio.
 
 ## How the adapter works
 
-The shipped skill is a generated artifact plus Codex-specific guides and helpers. The converter removes Claude-specific transport instructions and rewrites references; the conversion log records removals. Roles are briefs, not automatically running agents. Claude hooks, model selection, permissions and tool allowlists are not installed. Some upstream automation therefore has no direct equivalent. See `skills/game-studio/references/compatibility.md` for the contract.
+The build fetches the pinned upstream revision and generates a skill using the Codex-specific guides and helpers in this repository. The converter removes Claude-specific transport instructions and rewrites references; the conversion log records removals. Roles are briefs, not automatically running agents. Claude hooks, model selection, permissions and tool allowlists are not installed. Some upstream automation therefore has no direct equivalent. See `skills/game-studio/references/compatibility.md` for the contract.
 
-To regenerate, clone the upstream repository separately, check out the pinned commit, and run:
+To regenerate the skill, run:
 
 ```sh
-python3 scripts/port_codex.py --upstream /path/to/Claude-Code-Game-Studios
+python3 scripts/build.py
 python3 scripts/validate_port.py
 ```
 
-The converter requires a clean checkout at the pinned commit. Updating upstream requires reviewing conversion output and changing the pin deliberately. Generated references are shipped so normal use requires no upstream checkout.
+The build requires Git, Python 3, and network access to GitHub. Updating upstream requires reviewing conversion output and changing the pin deliberately in the build and converter scripts. Generated references and the conversion log live under `build/game-studio`.
 
 ## License
 

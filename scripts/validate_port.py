@@ -9,7 +9,7 @@ import tempfile
 import wave
 
 ROOT = Path(__file__).resolve().parents[1]
-SKILL = ROOT / 'skills/game-studio'
+SKILL = ROOT / 'build/game-studio'
 catalog = json.loads((SKILL / 'catalog.json').read_text())
 assert len(catalog['roles']) == 49 and len(catalog['workflows']) == 74
 for entries in catalog.values():

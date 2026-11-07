@@ -14,6 +14,7 @@ import subprocess
 
 ROOT = Path(__file__).resolve().parents[1]
 parser = argparse.ArgumentParser(description=__doc__)
+parser.add_argument('--output', type=Path, required=True, help='Generated skill directory')
 parser.add_argument('--upstream', type=Path, required=True, help='Path to the pinned upstream Git checkout')
 args = parser.parse_args()
 UPSTREAM = args.upstream.resolve()
@@ -24,7 +25,7 @@ if commit != PIN:
 if subprocess.check_output(['git', 'status', '--porcelain', '--untracked-files=no'], cwd=UPSTREAM, text=True).strip():
     raise SystemExit('Upstream checkout has tracked modifications; use a clean checkout.')
 SOURCE = UPSTREAM / '.claude'
-SKILL = ROOT / 'skills/game-studio'
+SKILL = args.output.resolve()
 REFS = SKILL / 'references'
 changes = []
 
@@ -136,6 +137,5 @@ shutil.copyfile(ROOT / 'LICENSE', SKILL / 'LICENSE')
 provenance = {'source': 'https://github.com/Donchitos/Claude-Code-Game-Studios', 'commit': commit, 'license': 'MIT', 'copyright': 'Copyright (c) 2026 Donchitos', 'source_counts': {'roles': len(catalog['roles']), 'workflows': len(catalog['workflows'])}, 'native_entrypoints': ['game-studio'], 'note': 'Generated from the pinned upstream checkout.'}
 (SKILL / 'catalog.json').write_text(json.dumps(catalog, indent=2) + '\n')
 (SKILL / 'provenance.json').write_text(json.dumps(provenance, indent=2) + '\n')
-(ROOT / 'docs/codex-port/conversion-log.json').write_text(json.dumps(changes, indent=2) + '\n')
-(ROOT / 'docs/codex-port/provenance.json').write_text(json.dumps(provenance, indent=2) + '\n')
+(SKILL / 'conversion-log.json').write_text(json.dumps(changes, indent=2) + '\n')
 print(json.dumps({'roles': len(catalog['roles']), 'workflows': len(catalog['workflows']), 'references': len(changes), 'commit': commit}))
