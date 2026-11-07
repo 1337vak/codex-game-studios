@@ -1,0 +1,2505 @@
+[
+  {
+    "source": ".claude/agents/accessibility-specialist.md",
+    "removed_transport_sections": [
+      "Collaboration Protocol",
+      "Collaborative Mindset",
+      "Write findings to `production/qa/accessibility/[screen-or-feature]-audit-[date].md` after approval: \"May I write this accessibility audit to [path]?\""
+    ]
+  },
+  {
+    "source": ".claude/agents/ai-programmer.md",
+    "removed_transport_sections": [
+      "Collaboration Protocol",
+      "Collaborative Mindset"
+    ]
+  },
+  {
+    "source": ".claude/agents/analytics-engineer.md",
+    "removed_transport_sections": [
+      "Collaboration Protocol",
+      "Collaborative Mindset"
+    ]
+  },
+  {
+    "source": ".claude/agents/art-director.md",
+    "removed_transport_sections": [
+      "Collaboration Protocol",
+      "Collaborative Mindset",
+      "`AskUserQuestion` is not in your `tools:` grant, so whoever called you presents your decisions. At each decision point, write the full analysis first (pros/cons, theory, examples, "
+    ]
+  },
+  {
+    "source": ".claude/agents/audio-director.md",
+    "removed_transport_sections": [
+      "Collaboration Protocol",
+      "Collaborative Mindset",
+      "`AskUserQuestion` is not in your `tools:` grant, so whoever called you presents your decisions. At each decision point, write the full analysis first (pros/cons, theory, examples, "
+    ]
+  },
+  {
+    "source": ".claude/agents/community-manager.md",
+    "removed_transport_sections": [
+      "Collaboration Protocol",
+      "Collaborative Mindset"
+    ]
+  },
+  {
+    "source": ".claude/agents/creative-director.md",
+    "removed_transport_sections": [
+      "Collaboration Protocol",
+      "Collaborative Mindset",
+      "`AskUserQuestion` is not in your `tools:` grant, so whoever called you presents your decisions. At each decision point, write the full analysis first (pros/cons, theory, examples, "
+    ]
+  },
+  {
+    "source": ".claude/agents/devops-engineer.md",
+    "removed_transport_sections": [
+      "Collaboration Protocol",
+      "Collaborative Mindset"
+    ]
+  },
+  {
+    "source": ".claude/agents/economy-designer.md",
+    "removed_transport_sections": [
+      "Collaboration Protocol",
+      "Collaborative Mindset",
+      "`AskUserQuestion` is not in your `tools:` grant, so whoever called you presents your decisions. At each decision point, write the full analysis first (pros/cons, theory, examples, ",
+      "After completing a loot table or resource flow model, flag all new cross-system items for registration: > \"These items appear in multiple systems. May I add them to > `design/regis"
+    ]
+  },
+  {
+    "source": ".claude/agents/engine-programmer.md",
+    "removed_transport_sections": [
+      "Collaboration Protocol",
+      "Collaborative Mindset"
+    ]
+  },
+  {
+    "source": ".claude/agents/game-designer.md",
+    "removed_transport_sections": [
+      "Collaboration Protocol",
+      "Collaborative Mindset",
+      "`AskUserQuestion` is not in your `tools:` grant, so whoever called you presents your decisions. At each decision point, write the full analysis first (pros/cons, theory, examples, "
+    ]
+  },
+  {
+    "source": ".claude/agents/gameplay-programmer.md",
+    "removed_transport_sections": [
+      "Collaboration Protocol",
+      "Collaborative Mindset"
+    ]
+  },
+  {
+    "source": ".claude/agents/godot-csharp-specialist.md",
+    "removed_transport_sections": [
+      "Collaboration Protocol",
+      "Collaborative Mindset"
+    ]
+  },
+  {
+    "source": ".claude/agents/godot-gdextension-specialist.md",
+    "removed_transport_sections": [
+      "Collaboration Protocol",
+      "Collaborative Mindset"
+    ]
+  },
+  {
+    "source": ".claude/agents/godot-gdscript-specialist.md",
+    "removed_transport_sections": [
+      "Collaboration Protocol",
+      "Collaborative Mindset"
+    ]
+  },
+  {
+    "source": ".claude/agents/godot-shader-specialist.md",
+    "removed_transport_sections": [
+      "Collaboration Protocol",
+      "Collaborative Mindset"
+    ]
+  },
+  {
+    "source": ".claude/agents/godot-specialist.md",
+    "removed_transport_sections": [
+      "Collaboration Protocol",
+      "Collaborative Mindset",
+      "Sub-Specialist Orchestration"
+    ]
+  },
+  {
+    "source": ".claude/agents/lead-programmer.md",
+    "removed_transport_sections": [
+      "Collaboration Protocol",
+      "Collaborative Mindset"
+    ]
+  },
+  {
+    "source": ".claude/agents/level-designer.md",
+    "removed_transport_sections": [
+      "Collaboration Protocol",
+      "Collaborative Mindset",
+      "`AskUserQuestion` is not in your `tools:` grant, so whoever called you presents your decisions. At each decision point, write the full analysis first (pros/cons, theory, examples, "
+    ]
+  },
+  {
+    "source": ".claude/agents/live-ops-designer.md",
+    "removed_transport_sections": [
+      "Collaboration Protocol",
+      "Collaborative Mindset",
+      "`AskUserQuestion` is not in your `tools:` grant, so whoever called you presents your decisions. At each decision point, write the full analysis first (pros/cons, theory, examples, "
+    ]
+  },
+  {
+    "source": ".claude/agents/localization-lead.md",
+    "removed_transport_sections": [
+      "Collaboration Protocol",
+      "Collaborative Mindset"
+    ]
+  },
+  {
+    "source": ".claude/agents/narrative-director.md",
+    "removed_transport_sections": [
+      "Collaboration Protocol",
+      "Collaborative Mindset",
+      "`AskUserQuestion` is not in your `tools:` grant, so whoever called you presents your decisions. At each decision point, write the full analysis first (pros/cons, theory, examples, "
+    ]
+  },
+  {
+    "source": ".claude/agents/network-programmer.md",
+    "removed_transport_sections": [
+      "Collaboration Protocol",
+      "Collaborative Mindset"
+    ]
+  },
+  {
+    "source": ".claude/agents/performance-analyst.md",
+    "removed_transport_sections": [
+      "Collaboration Protocol",
+      "Collaborative Mindset"
+    ]
+  },
+  {
+    "source": ".claude/agents/producer.md",
+    "removed_transport_sections": [
+      "Collaboration Protocol",
+      "Collaborative Mindset",
+      "`AskUserQuestion` is not in your `tools:` grant, so whoever called you presents your decisions. At each decision point, write the full analysis first (pros/cons, theory, examples, "
+    ]
+  },
+  {
+    "source": ".claude/agents/prototyper.md",
+    "removed_transport_sections": [
+      "Collaboration Protocol"
+    ]
+  },
+  {
+    "source": ".claude/agents/qa-lead.md",
+    "removed_transport_sections": [
+      "Collaboration Protocol",
+      "Collaborative Mindset"
+    ]
+  },
+  {
+    "source": ".claude/agents/qa-tester.md",
+    "removed_transport_sections": [
+      "Collaboration Protocol",
+      "Collaborative Mindset"
+    ]
+  },
+  {
+    "source": ".claude/agents/release-manager.md",
+    "removed_transport_sections": [
+      "Collaboration Protocol",
+      "Collaborative Mindset"
+    ]
+  },
+  {
+    "source": ".claude/agents/security-engineer.md",
+    "removed_transport_sections": [
+      "Collaboration Protocol",
+      "Collaborative Mindset"
+    ]
+  },
+  {
+    "source": ".claude/agents/sound-designer.md",
+    "removed_transport_sections": [
+      "Collaboration Protocol",
+      "Collaborative Mindset"
+    ]
+  },
+  {
+    "source": ".claude/agents/systems-designer.md",
+    "removed_transport_sections": [
+      "Collaboration Protocol",
+      "Collaborative Mindset",
+      "`AskUserQuestion` is not in your `tools:` grant, so whoever called you presents your decisions. At each decision point, write the full analysis first (pros/cons, theory, examples, ",
+      "If you introduce a new cross-system entity (one that will appear in more than one GDD), flag it at the end of each authoring session: > \"These new entities/items/formulas are cross"
+    ]
+  },
+  {
+    "source": ".claude/agents/technical-artist.md",
+    "removed_transport_sections": [
+      "Collaboration Protocol",
+      "Collaborative Mindset"
+    ]
+  },
+  {
+    "source": ".claude/agents/technical-director.md",
+    "removed_transport_sections": [
+      "Collaboration Protocol",
+      "Collaborative Mindset",
+      "`AskUserQuestion` is not in your `tools:` grant, so whoever called you presents your decisions. At each decision point, write the full analysis first (pros/cons, theory, examples, "
+    ]
+  },
+  {
+    "source": ".claude/agents/tools-programmer.md",
+    "removed_transport_sections": [
+      "Collaboration Protocol",
+      "Collaborative Mindset"
+    ]
+  },
+  {
+    "source": ".claude/agents/ue-blueprint-specialist.md",
+    "removed_transport_sections": [
+      "Collaboration Protocol",
+      "Collaborative Mindset"
+    ]
+  },
+  {
+    "source": ".claude/agents/ue-gas-specialist.md",
+    "removed_transport_sections": [
+      "Collaboration Protocol",
+      "Collaborative Mindset"
+    ]
+  },
+  {
+    "source": ".claude/agents/ue-replication-specialist.md",
+    "removed_transport_sections": [
+      "Collaboration Protocol",
+      "Collaborative Mindset"
+    ]
+  },
+  {
+    "source": ".claude/agents/ue-umg-specialist.md",
+    "removed_transport_sections": [
+      "Collaboration Protocol",
+      "Collaborative Mindset"
+    ]
+  },
+  {
+    "source": ".claude/agents/ui-programmer.md",
+    "removed_transport_sections": [
+      "Collaboration Protocol",
+      "Collaborative Mindset"
+    ]
+  },
+  {
+    "source": ".claude/agents/unity-addressables-specialist.md",
+    "removed_transport_sections": [
+      "Collaboration Protocol",
+      "Collaborative Mindset"
+    ]
+  },
+  {
+    "source": ".claude/agents/unity-dots-specialist.md",
+    "removed_transport_sections": [
+      "Collaboration Protocol",
+      "Collaborative Mindset"
+    ]
+  },
+  {
+    "source": ".claude/agents/unity-shader-specialist.md",
+    "removed_transport_sections": [
+      "Collaboration Protocol",
+      "Collaborative Mindset"
+    ]
+  },
+  {
+    "source": ".claude/agents/unity-specialist.md",
+    "removed_transport_sections": [
+      "Collaboration Protocol",
+      "Collaborative Mindset",
+      "Sub-Specialist Orchestration"
+    ]
+  },
+  {
+    "source": ".claude/agents/unity-ui-specialist.md",
+    "removed_transport_sections": [
+      "Collaboration Protocol",
+      "Collaborative Mindset"
+    ]
+  },
+  {
+    "source": ".claude/agents/unreal-specialist.md",
+    "removed_transport_sections": [
+      "Collaboration Protocol",
+      "Collaborative Mindset",
+      "Sub-Specialist Orchestration"
+    ]
+  },
+  {
+    "source": ".claude/agents/ux-designer.md",
+    "removed_transport_sections": [
+      "Collaboration Protocol",
+      "Collaborative Mindset",
+      "`AskUserQuestion` is not in your `tools:` grant, so whoever called you presents your decisions. At each decision point, write the full analysis first (pros/cons, theory, examples, "
+    ]
+  },
+  {
+    "source": ".claude/agents/world-builder.md",
+    "removed_transport_sections": [
+      "Collaboration Protocol",
+      "Collaborative Mindset",
+      "`AskUserQuestion` is not in your `tools:` grant, so whoever called you presents your decisions. At each decision point, write the full analysis first (pros/cons, theory, examples, "
+    ]
+  },
+  {
+    "source": ".claude/agents/writer.md",
+    "removed_transport_sections": [
+      "Collaboration Protocol",
+      "Collaborative Mindset",
+      "`AskUserQuestion` is not in your `tools:` grant, so whoever called you presents your decisions. For implementation choices and next-step decisions, explain the options, then end wi"
+    ]
+  },
+  {
+    "source": ".claude/skills/adopt/SKILL.md",
+    "removed_transport_sections": [
+      "Collaborative Protocol",
+      "!`bash \"${CLAUDE_SKILL_DIR}/../../hooks/yaml-helper.sh\" resolve_config --keys review_mode,automation,automation_always_ask,workflow`",
+      "**Automation mode**: Resolve `modes.automation` (`project.local.yaml` \u2192 `project.yaml` \u2192 default `collaborative`). Every `AskUserQuestion` call follows `.claude/docs/automation-mod"
+    ]
+  },
+  {
+    "source": ".claude/skills/adopt/references/1-detect.md",
+    "removed_transport_sections": [
+      "If the project appears fresh (no artifacts at all), use `AskUserQuestion`: - \"This looks like a fresh project \u2014 no existing artifacts found. `/adopt` is for   projects with work to",
+      "1. Search the folder they named, if they named one; otherwise the whole    project, skipping `.claude/`, `.git/`, `docs/engine-reference/`,    `studio-tests/`, `node_modules/` and "
+    ]
+  },
+  {
+    "source": ".claude/skills/adopt/references/2-format-audit.md",
+    "removed_transport_sections": [
+      "Transport-specific code block: ```\nBash: bash .claude/scripts/gdd-structure-check.sh [path-to-gdd]\n```",
+      "Transport-specific code block: ```bash\nbash .claude/scripts/migrate-v1-config.sh --dry-run\n```",
+      "Transport-specific code block: ```bash\nbash .claude/scripts/migrate-v1-config.sh --finalize\n```",
+      "The dry run writes nothing; record what it lists for the report. Do not run the converter during the audit \u2014 Phase 2 reads silently. The migration is classified BLOCKING in Phase 3"
+    ]
+  },
+  {
+    "source": ".claude/skills/adopt/references/3-classify.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/skills/adopt/references/4-migration-plan.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/skills/adopt/references/5-summary.md",
+    "removed_transport_sections": [
+      "Use `AskUserQuestion`: - \"Ready to write the migration plan?\"   - \"Yes \u2014 write `docs/adoption-plan-[date].md`\"   - \"Show me the full plan preview first (don't write yet)\"   - \"Canc"
+    ]
+  },
+  {
+    "source": ".claude/skills/adopt/references/6-write.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/skills/adopt/references/7-first-action.md",
+    "removed_transport_sections": [
+      "After writing the plan, don't stop there. Pick the single highest-priority gap and offer to handle it immediately using `AskUserQuestion`. Choose the first branch that applies:",
+      "**If Phase 2g found a v1.0 project needing migration:** offer the converter run described there \u2014 report what the dry run listed and ask \"May I run the converter? It writes `projec",
+      "**If there are parenthetical status values in systems-index.md:** Use `AskUserQuestion`: - \"The most urgent fix is `systems-index.md` \u2014 [N] rows have parenthetical status   values ",
+      "**If ADRs are missing `## Status` (and no parenthetical issue):** Use `AskUserQuestion`: - \"The most urgent fix is adding `## Status` to [N] ADR(s): [list filenames].   Without it,",
+      "**If GDDs are missing Acceptance Criteria (and no blocking issues above):** Use `AskUserQuestion`: - \"The most urgent gap is missing Acceptance Criteria in [N] GDD(s):   [list file",
+      "**Otherwise, if any BLOCKING or HIGH gap remains** (one no branch above names \u2014 e.g. a missing TR registry): Use `AskUserQuestion`: - \"The most urgent remaining gap is [first BLOCK",
+      "**If no BLOCKING or HIGH gaps exist:** Use `AskUserQuestion`: - \"No blocking gaps \u2014 this project is template-compatible. What next?\"   - \"Walk me through the medium-priority improv"
+    ]
+  },
+  {
+    "source": ".claude/skills/architecture-decision/CONTRACT.md",
+    "removed_transport_sections": [
+      "### Files Written | File | Guaranteed Fields / Sections | Notes | |------|------------------------------|-------| | `docs/architecture/adr-NNNN-[slug].md` | `## Status`, `## Date`,",
+      "## Hard Constraints (Never Violate) - Never sets `Status: Accepted` without explicit user confirmation \u2014 the default on creation is always `Status: Proposed` - **Acceptance route: "
+    ]
+  },
+  {
+    "source": ".claude/skills/architecture-decision/SKILL.md",
+    "removed_transport_sections": [
+      "!`bash \"${CLAUDE_SKILL_DIR}/../../hooks/yaml-helper.sh\" resolve_config --keys review_mode,automation,workflow,docs.density,team.size`",
+      "Every `AskUserQuestion` call follows `.claude/docs/automation-modes.md` (collaborative asks always \u00b7 guided major-only \u00b7 autonomous logs and proceeds; `automation_always_ask` categ",
+      "After the ADR is written (and registry optionally updated), close with `AskUserQuestion`."
+    ]
+  },
+  {
+    "source": ".claude/skills/architecture-decision/references/0-accept.md",
+    "removed_transport_sections": [
+      "   If it depends on any ADR that is not itself `Accepted`, **refuse and name them**:    > \"ADR-0005 depends on ADR-0002, which is still Proposed. Accept ADR-0002    > first \u2014 an ac"
+    ]
+  },
+  {
+    "source": ".claude/skills/architecture-decision/references/0-retrofit.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/skills/architecture-decision/references/1-engine-context.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/skills/architecture-decision/references/3-gather-context.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/skills/architecture-decision/references/4-decide.md",
+    "removed_transport_sections": [
+      "Before asking anything, derive the skill's best guesses from the context already gathered (GDDs read, engine reference loaded, existing ADRs scanned). Then present a **confirm/adju",
+      "**Scope of assumptions tab**: Assumptions cover only: problem framing, alternative approaches, upstream dependencies, GDD linkage, and status. Schema design questions (e.g., \"How s",
+      "**After assumptions are confirmed**, if the ADR involves schema or data design choices, use a separate multi-tab `AskUserQuestion` to ask each design question independently before ",
+      "**Present assumptions with `AskUserQuestion`:**",
+      "**After engine specialist and TD reviews return** (Step 5.5/5.6), if unresolved decisions remain, present each one as a separate `AskUserQuestion` with the proposed options as choi"
+    ]
+  },
+  {
+    "source": ".claude/skills/architecture-decision/references/5-generate.md",
+    "removed_transport_sections": [
+      "5.5. **Engine Specialist Validation** \u2014 Before saving, spawn the **primary engine specialist** via `Agent` to validate the drafted ADR:    - Resolve the primary specialist: `<engin",
+      "5. **Write approval** \u2014 Use `AskUserQuestion`:",
+      "If no GDD sync issues: - \"ADR draft is complete. May I write it?\"   - [A] Write ADR to `docs/architecture/adr-[NNNN]-[slug].md`   - [B] Not yet \u2014 I need to review further",
+      "**BLOCKING \u2014 do not write to `docs/registry/architecture.yaml` without explicit user approval.**",
+      "Ask using `AskUserQuestion`: - \"May I update `docs/registry/architecture.yaml` with these [N] new stances?\"   - Options: \"Yes \u2014 update the registry\", \"Not yet \u2014 I want to review th",
+      "After writing, run `bash .claude/scripts/registry.sh validate` and fix every row about an entry this write added or changed (a DUPLICATE, STATUS or LAYOUT row, an UNQUOTED row (quo"
+    ]
+  },
+  {
+    "source": ".claude/skills/architecture-review/SKILL.md",
+    "removed_transport_sections": [
+      "Collaborative Protocol",
+      "!`bash \"${CLAUDE_SKILL_DIR}/../../hooks/yaml-helper.sh\" resolve_config --keys automation,workflow`",
+      "Every `AskUserQuestion` call follows `.claude/docs/automation-modes.md` (collaborative asks always \u00b7 guided major-only \u00b7 autonomous logs and proceeds; `automation_always_ask` categ"
+    ]
+  },
+  {
+    "source": ".claude/skills/architecture-review/references/1-load.md",
+    "removed_transport_sections": [
+      "Transport-specific code block: ```\nBash: bash .claude/scripts/review-receipts.sh check \"[latest-report]\" docs/architecture/adr-*.md design/gdd/*.md doc",
+      "- **Any `UNRESOLVED`** \u2014 check this FIRST; it disqualifies every option   below. A glob matched no file, so that whole document class was never   examined and the comparison covere"
+    ]
+  },
+  {
+    "source": ".claude/skills/architecture-review/references/2-extract-requirements.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/skills/architecture-review/references/3-traceability.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/skills/architecture-review/references/4-conflicts.md",
+    "removed_transport_sections": [
+      "Transport-specific code block: ```\nBash: bash .claude/scripts/adr-dep-graph.sh\n```"
+    ]
+  },
+  {
+    "source": ".claude/skills/architecture-review/references/5-engine.md",
+    "removed_transport_sections": [
+      "After completing the engine audit above, spawn the **primary engine specialist** via `Agent` for a domain-expert second opinion: - Resolve the primary specialist: `<engine>-special",
+      "Then use `AskUserQuestion`: - \"I found [N] GDD revision flag(s). May I update the systems index?\"   - [A] Yes \u2014 apply all [N] updates to the systems index now   - [B] Show me the f",
+      "If [A]: apply the updates. Status field must be exactly `Needs Revision` \u2014 no parentheticals (other skills match that exact string and parentheticals break the match). If [B]: disp"
+    ]
+  },
+  {
+    "source": ".claude/skills/architecture-review/references/6-document-coverage.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/skills/architecture-review/references/7-report.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/skills/architecture-review/references/8-write.md",
+    "removed_transport_sections": [
+      "Transport-specific code block: ```\nBash: bash .claude/scripts/review-receipts.sh hash docs/architecture/adr-*.md design/gdd/*.md docs/architecture/tr-r",
+      "Use `AskUserQuestion` for the write approval: - \"Review complete. What would you like to write?\"   - [A] Write all three files \u2014 review report (`docs/architecture/architecture-revi",
+      "For `rtm` mode, use `AskUserQuestion`: - \"May I write the full Requirements Traceability Matrix?\"   - [A] Yes \u2014 write to `docs/architecture/requirements-traceability.md`   - [B] No",
+      "Also ask: \"May I update `docs/architecture/tr-registry.yaml` with new requirement IDs from this review?\"",
+      "After writing, run `bash .claude/scripts/registry.sh validate` and fix every row about an entry this write added or changed (a DUPLICATE, STATUS or LAYOUT row, or a PATH_MISSING ro"
+    ]
+  },
+  {
+    "source": ".claude/skills/architecture-review/references/9-handoff.md",
+    "removed_transport_sections": [
+      "Then close with `AskUserQuestion` tailored to the pre-gate checklist state: - If ADR gaps remain or any pre-gate item is \u274c:   - \"Architecture review complete. What would you like t"
+    ]
+  },
+  {
+    "source": ".claude/skills/art-bible/SKILL.md",
+    "removed_transport_sections": [
+      "Collaborative Protocol",
+      "!`bash \"${CLAUDE_SKILL_DIR}/../../hooks/yaml-helper.sh\" resolve_config --keys review_mode,automation,workflow,docs.density`",
+      "Every `AskUserQuestion` call follows `.claude/docs/automation-modes.md` (collaborative asks always \u00b7 guided major-only \u00b7 autonomous logs and proceeds; `automation_always_ask` categ",
+      "If the file does not exist, this is a fresh authoring session. The first approved section creates the file from `.claude/docs/templates/art-bible.md`, whose nine `## N. Name` headi",
+      "**A section's approval names its write.** Every section is approved through an `AskUserQuestion` whose approving option is `[A] Lock this in and write it to design/art/art-bible.md",
+      "Use `AskUserQuestion` with two tabs: - Tab **\"Scope\"** \u2014 \"Which sections need to be authored today?\"   Options: `Full bible \u2014 all 9 sections` / `Visual identity core (sections 1\u20134 ",
+      "> **Spawn policy for this phase.** Section 1 is delegated on its own \u2014 it is > foundational and the user chooses between anchor directions before anything > else can build on it. S",
+      "Present the art-director's draft to the user. Use `AskUserQuestion`: - Options: `[A] Lock this in and write it to design/art/art-bible.md` / `[B] Revise the one-liner` / `[C] Revis",
+      "Collect both. If they conflict (e.g., art-director wants elaborate diegetic UI but ux-designer flags it would reduce combat readability), surface the conflict explicitly with both ",
+      "If any art preference conflicts with a technical constraint (e.g., art-director wants 4K textures but performance budget requires 2K for mobile), surface the conflict explicitly wi",
+      "On either skip, ask \"May I record the skipped sign-off in `design/art/art-bible.md`'s header?\" and, on yes, replace the header's `> **Art Director Sign-Off (AD-ART-BIBLE)**: [Not y",
+      "Use `AskUserQuestion` for next steps. Only include options that are genuinely next based on the state check above:",
+      "**Option pool \u2014 include only if not already done:** - `[_] Run /map-systems \u2014 decompose the concept into systems before writing GDDs` (skip if systems-index.md exists) - `[_] Run /"
+    ]
+  },
+  {
+    "source": ".claude/skills/asset-audit/SKILL.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/skills/asset-spec/SKILL.md",
+    "removed_transport_sections": [
+      "Collaborative Protocol",
+      "!`bash \"${CLAUDE_SKILL_DIR}/../../hooks/yaml-helper.sh\" resolve_config --keys review_mode,automation`",
+      "If no argument is provided, check whether `design/assets/entity-inventory.md` exists: - If it exists: read it, find the first entity or screen with status \"Needed\" but no spec file",
+      "Every `AskUserQuestion` call follows `.claude/docs/automation-modes.md` (collaborative asks always \u00b7 guided major-only \u00b7 autonomous logs and proceeds; `automation_always_ask` categ",
+      "### Step 3 \u2014 Present and collaborate Present the full proposed inventory to the user in conversation. Then use `AskUserQuestion`: - Prompt: \"I found **[N] visual entities and [N] U",
+      "### Step 4 \u2014 Write inventory After user approval, ask: \"May I write the entity inventory to `design/assets/entity-inventory.md`?\"",
+      "### Source doc reads (by target type): - **system**: Read `design/gdd/[target-name].md`. Extract the **Visual/Audio Requirements** section. If it doesn't exist or reads `[To be des",
+      "Present the full identified list to the user. Use `AskUserQuestion`: - Prompt: \"I identified [N] assets across [N] categories for **[target]**. Review before speccing:\" - Show the ",
+      "After presenting all specs, use `AskUserQuestion`: - Prompt: \"Asset specs for **[target]** \u2014 [N] assets. Review complete?\" - Options: `[A] Approve all \u2014 write to file` / `[B] Revis",
+      "After approval, ask: \"May I write the spec to `design/assets/specs/[target-name]-assets.md`?\"",
+      "**If that file already exists** (a re-run for the same target), update it in place \u2014 never overwrite it wholesale. Keep its existing `ASSET-NNN` blocks and IDs, apply only the chan",
+      "Ask: \"May I update `design/assets/asset-manifest.md`?\"",
+      "Use `AskUserQuestion`: - Prompt: \"Asset specs complete for **[target]**. What's next?\" - Options:   - `[A] Spec another system \u2014 /asset-spec system:[next-system]`   - `[B] Spec a l"
+    ]
+  },
+  {
+    "source": ".claude/skills/balance-check/SKILL.md",
+    "removed_transport_sections": [
+      "!`bash \"${CLAUDE_SKILL_DIR}/../../hooks/yaml-helper.sh\" resolve_config --keys automation`",
+      "Every `AskUserQuestion` call follows `.claude/docs/automation-modes.md` (collaborative asks always \u00b7 guided major-only \u00b7 autonomous logs and proceeds; `automation_always_ask` categ",
+      "After presenting the report, use `AskUserQuestion`: - Prompt: \"Balance check complete. What would you like to do next?\" - Options:   - `[A] Fix highest-priority issue now \u2014 walk me",
+      "**Run as a subagent?** `game-designer` preloads this skill, and a subagent has no `AskUserQuestion`. End your reply with the question and these three options as a short list, and s"
+    ]
+  },
+  {
+    "source": ".claude/skills/brainstorm/SKILL.md",
+    "removed_transport_sections": [
+      "!`bash \"${CLAUDE_SKILL_DIR}/../../hooks/yaml-helper.sh\" resolve_config --keys review_mode,automation,docs.density,workflow`",
+      "1. **Concept.** From the hint typed after the skill name (or one quick open question if there is    none), propose **2 or 3 one-line concepts** (verb-first or a mashup of genre and"
+    ]
+  },
+  {
+    "source": ".claude/skills/brainstorm/references/full-concept.md",
+    "removed_transport_sections": [
+      "Ask: \"Do these pillars feel right for your game?\" `Lock these in` / `Rename or reframe one` / `Swap a pillar out` / `Something else`. After a revision ask: \"Pillars updated. Ready ",
+      "Ask, as its own question: \"Game concept is ready. May I write it to `design/gdd/game-concept.md`?\" `Yes \u2014 write it` / `Not yet \u2014 revise a section first`. Write only on an explicit "
+    ]
+  },
+  {
+    "source": ".claude/skills/bug-report/SKILL.md",
+    "removed_transport_sections": [
+      "!`bash \"${CLAUDE_SKILL_DIR}/../../hooks/yaml-helper.sh\" resolve_config --keys automation`",
+      "**Automation mode**: Resolve `modes.automation` (`project.local.yaml` \u2192 `project.yaml` \u2192 default `collaborative`). Every `AskUserQuestion` call and every file write follows `.claud",
+      "1. **Re-run reproduction steps** \u2014 use Grep/Glob to check whether the root cause code path still exists as described. If the fix removed or changed it, note the change. 2. **Run th",
+      "Ask: \"May I update `production/qa/bugs/[bug file]` to set Status: Verified Fixed / Still Present / Cannot Verify?\" \u2014 naming the file found above, whatever its padding or slug. With",
+      "Show the closure record below and the Status change, then ask: \"May I update `production/qa/bugs/[bug file]` to mark it Closed?\" Nothing is written before a yes; on no, stop \u2014 the ",
+      "Ask: \"May I write this to `production/qa/bugs/BUG-[NNNN].md`?\" For several reports, ask once and name every file: \"May I write these to `production/qa/bugs/BUG-[NNNN].md`, `product"
+    ]
+  },
+  {
+    "source": ".claude/skills/bug-triage/SKILL.md",
+    "removed_transport_sections": [
+      "Collaborative Protocol",
+      "!`bash \"${CLAUDE_SKILL_DIR}/../../hooks/yaml-helper.sh\" resolve_config --keys automation,workflow`",
+      "**Automation mode**: Resolve `modes.automation` (`project.local.yaml` \u2192 `project.yaml` \u2192 default `collaborative`). Every `AskUserQuestion` call and every file write follows `.claud",
+      "\"May I write this triage report to `production/qa/bug-triage-[date].md`?\""
+    ]
+  },
+  {
+    "source": ".claude/skills/changelog/SKILL.md",
+    "removed_transport_sections": [
+      "!`bash \"${CLAUDE_SKILL_DIR}/../../hooks/yaml-helper.sh\" resolve_config --keys automation`",
+      "**Automation mode**: Resolve `modes.automation` (`project.local.yaml` \u2192 `project.yaml` \u2192 default `collaborative`). Every `AskUserQuestion` call and every file write follows `.claud",
+      "!`git log --oneline -30 2>/dev/null || true`",
+      "!`git tag --list --sort=-v:refname 2>/dev/null | head -5`",
+      "> \"May I write this changelog to `docs/CHANGELOG.md`? > [A] Yes, append this entry (recommended if the file already exists) > [B] Yes, overwrite the file entirely > [C] No \u2014 I'll c"
+    ]
+  },
+  {
+    "source": ".claude/skills/code-review/SKILL.md",
+    "removed_transport_sections": [
+      "!`bash \"${CLAUDE_SKILL_DIR}/../../hooks/yaml-helper.sh\" resolve_config --keys automation`",
+      "Every `AskUserQuestion` call follows `.claude/docs/automation-modes.md` (collaborative asks always \u00b7 guided major-only \u00b7 autonomous logs and proceeds; `automation_always_ask` categ",
+      "Use `AskUserQuestion`: - Prompt: \"Code review complete \u2014 verdict: [NOT ASSESSED / APPROVED / APPROVED WITH SUGGESTIONS / CHANGES REQUIRED]. How would you like to proceed?\" (the Pha"
+    ]
+  },
+  {
+    "source": ".claude/skills/consistency-check/SKILL.md",
+    "removed_transport_sections": [
+      "!`bash \"${CLAUDE_SKILL_DIR}/../../hooks/yaml-helper.sh\" resolve_config --keys automation,workflow,system_overrides`",
+      "Every `AskUserQuestion` call follows `.claude/docs/automation-modes.md` (collaborative asks always \u00b7 guided major-only \u00b7 autonomous logs and proceeds; `automation_always_ask` categ",
+      "If stale registry entries were found, ask: > \"May I update `design/registry/entities.yaml` to fix the [N] stale entries?\"",
+      "If new entries were found in GDDs that are not in the registry, ask: > \"Found [N] entities/items mentioned in GDDs that aren't in the registry yet. > May I add them to `design/regi",
+      "After writing, run `bash .claude/scripts/registry.sh validate` and fix every row about an entry this write added or changed (a DUPLICATE, STATUS or LAYOUT row, or a PATH_MISSING ro",
+      "If any \ud83d\udd34 CONFLICT entries were found (regardless of whether they were resolved), ask: \"May I append [N] entries to `docs/consistency-failures.md` (creating it if absent)?\" On yes, ",
+      "Then close with an `AskUserQuestion` widget:"
+    ]
+  },
+  {
+    "source": ".claude/skills/content-audit/SKILL.md",
+    "removed_transport_sections": [
+      "!`bash \"${CLAUDE_SKILL_DIR}/../../hooks/yaml-helper.sh\" resolve_config --keys workflow,automation`",
+      "**Automation mode**: Resolve `modes.automation` (`project.local.yaml` \u2192 `project.yaml` \u2192 default `collaborative`). Every `AskUserQuestion` call and every file write follows `.claud",
+      "Present the gap table and summary to the user. Ask: \"May I write the full report to `docs/content-audit-[YYYY-MM-DD].md`?\""
+    ]
+  },
+  {
+    "source": ".claude/skills/create-architecture/SKILL.md",
+    "removed_transport_sections": [
+      "Collaborative Protocol",
+      "!`bash \"${CLAUDE_SKILL_DIR}/../../hooks/yaml-helper.sh\" resolve_config --keys review_mode,automation,workflow,docs.density`",
+      "Every `AskUserQuestion` call follows `.claude/docs/automation-modes.md` (collaborative asks always \u00b7 guided major-only \u00b7 autonomous logs and proceeds; `automation_always_ask` categ"
+    ]
+  },
+  {
+    "source": ".claude/skills/create-architecture/references/0-load-context.md",
+    "removed_transport_sections": [
+      "- **Registry present with entries:** read `docs/architecture/tr-registry.yaml`.   A requirement that matches an `active` entry for the same system (same intent,   wording may diffe",
+      "Use `AskUserQuestion`: - Prompt: \"One or more engine domains are HIGH RISK \u2014 the LLM's knowledge may be unreliable for these areas. Architectural recommendations in these domains s",
+      "Glob `docs/architecture/architecture.md`. If it exists, this run updates it \u2014 it never replaces it unasked. Read its `## Document Status` block and its `##` headings, then use `Ask"
+    ]
+  },
+  {
+    "source": ".claude/skills/create-architecture/references/1-layers.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/skills/create-architecture/references/2-module-ownership.md",
+    "removed_transport_sections": [
+      "Get user approval on the ownership map, then record it in `production/session-state/active.md`; it is written at Phase 7."
+    ]
+  },
+  {
+    "source": ".claude/skills/create-architecture/references/3-data-flow.md",
+    "removed_transport_sections": [
+      "Get user approval on each scenario, then record it in `production/session-state/active.md`; it is written at Phase 7."
+    ]
+  },
+  {
+    "source": ".claude/skills/create-architecture/references/4-api-boundaries.md",
+    "removed_transport_sections": [
+      "Get user approval on the API boundaries, then record them in `production/session-state/active.md`; they are written at Phase 7."
+    ]
+  },
+  {
+    "source": ".claude/skills/create-architecture/references/5-adr-audit.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/skills/create-architecture/references/6-missing-adrs.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/skills/create-architecture/references/7-write.md",
+    "removed_transport_sections": [
+      "Display a one-paragraph summary of what the document will contain (layers, modules, data flows, ADR gaps). Then use `AskUserQuestion`: - \"All sections approved. May I write the mas",
+      "Use `AskUserQuestion` \u2014 \"Technical Director and Lead Programmer have reviewed the architecture. How would you like to proceed?\" Options: `Accept \u2014 proceed to handoff` / `Revise fla",
+      "Show the proposed Document Status block inline, then use `AskUserQuestion`: - \"May I update the Document Status section with the sign-off results?\"   - [A] Yes \u2014 apply to `docs/arc"
+    ]
+  },
+  {
+    "source": ".claude/skills/create-architecture/references/8-handoff.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/skills/create-control-manifest/SKILL.md",
+    "removed_transport_sections": [
+      "Transport-specific code block: ```\nbash .claude/scripts/md-section.sh extract docs/architecture/[adr-file].md \"Decision\"\n```",
+      "!`bash \"${CLAUDE_SKILL_DIR}/../../hooks/yaml-helper.sh\" resolve_config --keys review_mode,review_gate,automation`",
+      "`bash .claude/scripts/adr-status.sh` reads every `docs/architecture/adr-*.md` in one pass: the counts first (`adrs`, then `accepted`, `proposed`, `deprecated`, `superseded`, `unfil",
+      "| Counts | Meaning | Action | |---|---|---| | `adrs 0` | No ADRs. | \"No ADRs found \u2014 run `/architecture-decision` before building a control manifest.\" Stop. | | `accepted` \u2265 1 | No",
+      "Ask: \"May I write the control manifest to `docs/architecture/control-manifest.md`?\" Options: Yes, write it / Show me the full draft first, then ask again / Not yet \u2014 I want more ch"
+    ]
+  },
+  {
+    "source": ".claude/skills/create-epics/CONTRACT.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/skills/create-epics/SKILL.md",
+    "removed_transport_sections": [
+      "!`bash \"${CLAUDE_SKILL_DIR}/../../hooks/yaml-helper.sh\" resolve_config --keys review_mode,review_gate,automation,workflow,docs.density,engine_values,system_overrides`",
+      "1. **The system GDDs.** `bash .claude/scripts/gdd-structure-check.sh` lists every    system GDD; the game concept, systems index, pillars, cross-reviews and the other    non-system",
+      "For each epic the user said yes to, in order:",
+      "**New:** ask \"May I write `production/epics/[epic-slug]/EPIC.md` and add its row to `production/epics/index.md`[, creating it]?\" This is its own ask, one per epic, after the Phase "
+    ]
+  },
+  {
+    "source": ".claude/skills/create-epics/references/pr-epic-gate.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/skills/create-stories/CONTRACT.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/skills/create-stories/SKILL.md",
+    "removed_transport_sections": [
+      "Transport-specific code block: ```\n   bash .claude/scripts/adr-status.sh ADR-0001 ADR-0003 ...\n   ```",
+      "!`bash \"${CLAUDE_SKILL_DIR}/../../hooks/yaml-helper.sh\" resolve_config --keys review_mode,review_gate,automation,workflow,docs.density,story_granularity,qa.level,system_overrides`",
+      "1. **The epic:** `production/epics/[epic-slug]/EPIC.md` in full (its layer, GDD,    governing ADRs, and the GDD Requirements table with TR-IDs). 2. **The GDD:** its sections by hea",
+      "## Phase 6: Show the stories, ask once",
+      "At `minimal`, each line traces to `Brief MVP feature N`, there is no ADRs line, and there is one story per MVP feature: no extra stories for brief items outside the MVP list. Then "
+    ]
+  },
+  {
+    "source": ".claude/skills/create-stories/references/qa-lead-gate.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/skills/day-one-patch/SKILL.md",
+    "removed_transport_sections": [
+      "Collaborative Protocol",
+      "Use `AskUserQuestion`: - Prompt: \"Based on open bugs and cert feedback, here is the proposed day-one patch scope. Does this look right?\" - Show: table of included bugs (ID, severit",
+      "Use `AskUserQuestion` to confirm proceeding or reduce scope.",
+      "Present the rollback plan. Ask: \"May I write this rollback plan to `production/releases/rollback-plan-[version].md`?\"",
+      "2. Ask once, for the whole set: \"May I apply these fixes? [BUG-ID \u2192 files, one    line each]\". No code changes before this approval.",
+      "For config/data-only fixes: make the change directly (no programmer agent needed). First ask, naming the file and the change: \"May I edit `[config file]` \u2014 `[key]`: [old value] \u2192 [",
+      "Ask: \"May I write this patch record to `production/releases/day-one-patch-[version].md`?\"",
+      "Use `AskUserQuestion`: - Prompt: \"Day-one patch complete. What's next?\" - Options:   - `[A] Run /patch-notes \u2014 generate player-facing patch notes`   - `[B] Run /bug-report to log a"
+    ]
+  },
+  {
+    "source": ".claude/skills/design-review/SKILL.md",
+    "removed_transport_sections": [
+      "Transport-specific code block: ```\nBash: bash .claude/scripts/review-receipts.sh check \"design/gdd/reviews/[doc-name]-review-log.md\" \"[target-doc-path]",
+      "Transport-specific code block: ```\nBash: bash .claude/scripts/gdd-structure-check.sh [target-doc-path]\n```",
+      "Transport-specific code block: ```\n## Review \u2014 [YYYY-MM-DD] \u2014 Verdict: [APPROVED / NEEDS REVISION / MAJOR REVISION NEEDED]\nReview mode: [full / lean / ",
+      "!`bash \"${CLAUDE_SKILL_DIR}/../../hooks/yaml-helper.sh\" resolve_config --keys review_mode,automation,workflow,system_overrides`",
+      "Every `AskUserQuestion` call follows `.claude/docs/automation-modes.md` (collaborative asks always \u00b7 guided major-only \u00b7 autonomous logs and proceeds; `automation_always_ask` categ",
+      "- **All `UNCHANGED`** and the log's latest entry carries a verdict \u2014 surface it:   *\"This document is byte-identical to its last review on [date] ([mode]   review, verdict: [verdic",
+      "Use `AskUserQuestion` for ALL closing interactions. Never plain text.",
+      "Work through all blocking items, asking for design decisions only where you cannot resolve the issue from the GDD and existing docs alone. Group all design-decision questions into ",
+      "After all revisions are complete, show a summary table (blocker \u2192 fix applied) and use `AskUserQuestion` for a **post-revision closing widget**:",
+      "When the verdict is APPROVED, use a single `AskUserQuestion` with `multiSelect: true` to batch the two tracking updates: - Prompt: \"Verdict: APPROVED. I can update the tracking rec",
+      "Use a second `AskUserQuestion`: - Prompt: \"May I update `design/gdd/systems-index.md` to mark [system] as [Needs Revision / In Review]?\" \u2014 `Needs Revision` (that exact string) whil",
+      "Use a third `AskUserQuestion`: - Prompt: \"May I append this review summary to `design/gdd/reviews/[doc-name]-review-log.md`? This creates a revision history so future re-reviews ca",
+      "Once the systems-index and review-log widgets are answered, check project state and show one final `AskUserQuestion`:"
+    ]
+  },
+  {
+    "source": ".claude/skills/design-system/SKILL.md",
+    "removed_transport_sections": [
+      "Collaborative Protocol",
+      "!`bash \"${CLAUDE_SKILL_DIR}/../../hooks/yaml-helper.sh\" resolve_config --keys review_mode,automation,workflow,docs.density,system_overrides`",
+      "**When delegating via the `Agent` tool**: - Provide: system name, game concept summary, dependency GDD excerpts, the specific   section being worked on, and what question needs exp"
+    ]
+  },
+  {
+    "source": ".claude/skills/design-system/references/1-parse-arguments.md",
+    "removed_transport_sections": [
+      "Every `AskUserQuestion` call follows `.claude/docs/automation-modes.md` (collaborative asks always \u00b7 guided major-only \u00b7 autonomous logs and proceeds; `automation_always_ask` categ",
+      "1. Check if `design/gdd/systems-index.md` exists. 2. If it exists: read it, find the highest-priority system with status \"Not Started\" or equivalent, and use `AskUserQuestion`:    "
+    ]
+  },
+  {
+    "source": ".claude/skills/design-system/references/2-gather-context.md",
+    "removed_transport_sections": [
+      "Transport-specific code block: ```\n  bash .claude/scripts/registry.sh slice design/gdd/[system-name].md\n  ```",
+      "Use `AskUserQuestion`: - \"Any constraints to add before we begin, or shall we proceed with these noted?\"   - Options: \"Proceed with these noted\", \"Add a constraint first\", \"I need ",
+      "Use `AskUserQuestion`: - \"Ready to start designing [system-name]?\"   - Options: \"Yes, let's go\", \"Show me more context first\", \"Design a dependency first\""
+    ]
+  },
+  {
+    "source": ".claude/skills/design-system/references/3-file-skeleton.md",
+    "removed_transport_sections": [
+      "Ask: \"May I create the skeleton file at `design/gdd/[system-name].md`?\""
+    ]
+  },
+  {
+    "source": ".claude/skills/design-system/references/4-section-design.md",
+    "removed_transport_sections": [
+      "2. **Questions**: Ask clarifying questions specific to this section. Use    `AskUserQuestion` for constrained questions, conversational text for open-ended    exploration.",
+      "3. **Options**: Where the section involves design choices (not just documentation),    present 2-4 approaches with pros/cons. Explain reasoning in conversation text,    then use `A",
+      "   **In `collaborative` mode**: Immediately after the draft \u2014 in the SAME    response \u2014 use `AskUserQuestion`. **NEVER use plain text. NEVER skip    this step.**    - Prompt: \"Appr",
+      "**Framing questions (ask BEFORE drafting)**: Use `AskUserQuestion` with a multi-tab widget: - Tab \"Framing\" \u2014 \"How should the overview frame this system?\" Options: `[A] As a data/i",
+      "**Framing question (ask BEFORE drafting)**: Use `AskUserQuestion`: - Prompt: \"Is this system something the player engages with directly, or infrastructure they experience indirectl",
+      "**Agent delegation (MANDATORY)**: Before drafting Section C, spawn specialist agents via `Agent` in parallel: - Look up the system category in the routing table (Section 6 of this ",
+      "**Agent delegation (MANDATORY)**: Before proposing any formulas or balance values, spawn specialist agents via `Agent` in parallel: - **Always spawn `systems-designer`**: provide C",
+      "Use `AskUserQuestion`: - \"The required sections for this workflow tier are complete. Which of the   remaining template sections do you want to define?\"   - Options: \"All of them\", "
+    ]
+  },
+  {
+    "source": ".claude/skills/design-system/references/5-post-design.md",
+    "removed_transport_sections": [
+      "- **Absent** \u2014 say so, and ask whether to create it:   *\"`design/registry/entities.yaml` does not exist. May I create it with these   [N] entries?\"* If the user declines, skip 5b a",
+      "Ask: \"May I update `design/registry/entities.yaml` with these [N] new entries and update `referenced_by` for the existing entries?\" (If the file was absent and the user approved cr",
+      "After writing, run `bash .claude/scripts/registry.sh validate` and fix every row about an entry this write added or changed (a DUPLICATE, STATUS or LAYOUT row, or a PATH_MISSING ro",
+      "Ask: \"May I update the systems index at `design/gdd/systems-index.md`?\"",
+      "Use `AskUserQuestion`: - \"What's next?\"   - Options:     - \"Run `/consistency-check` \u2014 verify this GDD's values don't conflict with existing GDDs (recommended before designing the "
+    ]
+  },
+  {
+    "source": ".claude/skills/dev-story/CONTRACT.md",
+    "removed_transport_sections": [
+      "### Output Guarantees - All source files follow the naming conventions in `project.yaml` (`naming.*`), falling back to `.claude/docs/technical-preferences.md` for any convention ab",
+      "## Hard Constraints (Never Violate) - Never marks a story `Status: Done` or `Status: Complete` on its own judgement \u2014 that belongs to `/story-done`. The one exception is a dependen"
+    ]
+  },
+  {
+    "source": ".claude/skills/dev-story/SKILL.md",
+    "removed_transport_sections": [
+      "!`bash \"${CLAUDE_SKILL_DIR}/../../hooks/yaml-helper.sh\" resolve_config --keys automation,workflow,qa.level,gate_level,engine_values,specialists,perf_budgets,system_overrides`",
+      "The text typed after the skill name is the story path. With nothing typed, take the story the checkpoint in `production/session-state/active.md` names and confirm it: \"Continuing w",
+      "`bash .claude/scripts/story-facts.sh <story-path>` gives its type, layer, TR-IDs, ADRs and dependencies. Then read the story in full.",
+      "**The ADR.** `bash .claude/scripts/adr-status.sh <ADR id>` gives its status and `version`. Stop messages: `Proposed` \u2014 \"ADR-NNNN is still Proposed. Accept it with `/architecture-de",
+      "**Dependencies.** For each path on the story's Depends on line, `bash .claude/scripts/story-facts.sh <path>`. Not `COMPLETE`: ask \"[this story] depends on [dependency], which is [s",
+      "Before any agent, ask once: \"May I mark this story In Progress? This sets `Status` and `Last Updated` in [story path] and its entry in `production/sprint-status.yaml`, and at the e",
+      "- `bash .claude/scripts/md-section.sh set-field <story> Status \"In Progress\"`, then   `set-field <story> \"Last Updated\" <YYYY-MM-DD> --after Status`. At `minimal` the   story file ",
+      "**Config/Data stories need no agent.** Show each value change as from \u2192 to, ask \"May I write [data file]?\", and edit it. Go to Phase 6.",
+      "- **Godot:** `godot --headless --path . --import` once, then   `godot --headless --path . -s res://.claude/scripts/godot-parse-check.gd -- res://<each changed .gd>`.   Exit 1 means",
+      "**Run it and look** (`.claude/docs/run-and-observe.md`). For every story a player can see (every Visual/Feel and UI story, and any other with a surface): launch straight into the s",
+      "This skill pre-approves `godot` on PATH. An engine run through `engine.path` or the executable `commands.test` names asks first: the user approves it once, or adds `Bash(<that exec",
+      "**`## Files`.** Replace the section's body with the list of changed code and test files, one per line, as the Phase 3 ask said: `bash .claude/scripts/md-section.sh replace <story> ",
+      "**The checkpoint**, on every outcome. Pipe the block to `bash .claude/scripts/session-state.sh checkpoint`, which replaces the old one:"
+    ]
+  },
+  {
+    "source": ".claude/skills/dev-story/references/engine-checks.md",
+    "removed_transport_sections": [
+      "**Capture** needs `Assets/Scripts/ScreenshotOnArg.cs`, given word for word in `run-and-observe.md` (named in `SKILL.md`, Phase 6). When the project has none (look for `Assets/**/Sc"
+    ]
+  },
+  {
+    "source": ".claude/skills/dev-story/references/version-mismatch.md",
+    "removed_transport_sections": [
+      "- **Re-read the changed ADR and refresh the story (Recommended).** Read the ADR's   Decision, Engine Compatibility and ADR Dependencies sections with   `bash .claude/scripts/md-sec"
+    ]
+  },
+  {
+    "source": ".claude/skills/estimate/SKILL.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/skills/gate-check/CONTRACT.md",
+    "removed_transport_sections": [
+      "### Files Written | File | Guaranteed Fields / Sections | Notes | |------|------------------------------|-------| | `production/gate-checks/gate-[phase]-[date].md` (or path chosen ",
+      "## Immutability Rules - READS but does NOT modify: all GDDs in `design/gdd/`, all ADRs in `docs/architecture/`, `docs/architecture/control-manifest.md`, `docs/architecture/tr-regis",
+      "## Known Fragile Points - `project.stage` in `project.yaml` (with legacy `production/stage.txt` as fallback) is the authoritative stage indicator \u2014 if either is manually edited to "
+    ]
+  },
+  {
+    "source": ".claude/skills/gate-check/SKILL.md",
+    "removed_transport_sections": [
+      "Collaborative Protocol",
+      "!`bash \"${CLAUDE_SKILL_DIR}/../../hooks/yaml-helper.sh\" resolve_config --keys review_mode,workflow,qa.level,testing.strict,performance.enforce,team.size,project.stage,system_overri",
+      "  Use `AskUserQuestion`:   - Prompt: \"Detected stage: **[current stage]**. Running gate for [Current] \u2192 [Next] transition. Is this correct?\"   - Options:     - `[A] Yes \u2014 run this "
+    ]
+  },
+  {
+    "source": ".claude/skills/gate-check/references/2b-workflow-tier.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/skills/gate-check/references/3-run-gate-check.md",
+    "removed_transport_sections": [
+      "Transport-specific code block: ```\nBash: bash .claude/scripts/artifact-check.sh --phase [source-phase]\n```",
+      "Transport-specific code block: ```\n  Bash: bash .claude/scripts/gdd-structure-check.sh\n  ```",
+      "At `workflow: minimal`, also run `bash .claude/scripts/artifact-check.sh --path minimal`: the brief and stories live on that path, not on any phase, and its `game-brief` and `creat"
+    ]
+  },
+  {
+    "source": ".claude/skills/gate-check/references/4-assessment.md",
+    "removed_transport_sections": [
+      "**Axis 2 \u2014 `workflow` decides the panel width.** Directors are Opus-tier, so the panel is sized to the project rather than fixed at four. The gate still runs at every tier; only it"
+    ]
+  },
+  {
+    "source": ".claude/skills/gate-check/references/5-verdict.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/skills/gate-check/references/6-update-stage.md",
+    "removed_transport_sections": [
+      "Transport-specific code block: ```bash\nbash .claude/scripts/set-stage.sh \"<new-stage>\"\n```",
+      "**On CONCERNS, the user may override \u2014 explicitly.** Do not offer the stage write by default. If the user asks to advance anyway, list every concern and ask: \"The gate returned CON",
+      "**Always ask before writing**: \"Gate passed. May I update `project.stage` in `project.yaml` to 'Production' (and the legacy `production/stage.txt`)?\" \u2014 on an accepted CONCERNS over"
+    ]
+  },
+  {
+    "source": ".claude/skills/gate-check/references/7-next-steps.md",
+    "removed_transport_sections": [
+      "After the verdict is presented and any stage update is complete (project.yaml + stage.txt), close with a structured next-step prompt using `AskUserQuestion`."
+    ]
+  },
+  {
+    "source": ".claude/skills/gate-check/references/gate-polish.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/skills/gate-check/references/gate-pre-production.md",
+    "removed_transport_sections": [
+      "Transport-specific code block: ```\nBash: bash .claude/scripts/adr-dep-graph.sh\n```"
+    ]
+  },
+  {
+    "source": ".claude/skills/gate-check/references/gate-production.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/skills/gate-check/references/gate-release.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/skills/gate-check/references/gate-systems-design.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/skills/gate-check/references/gate-technical-setup.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/skills/help/SKILL.md",
+    "removed_transport_sections": [
+      "Collaborative Protocol",
+      "Transport-specific code block: ```\nBash: bash .claude/scripts/artifact-check.sh --phase [current-phase]\n```",
+      "Transport-specific code block: ```\nBash: bash .claude/scripts/artifact-check.sh --path minimal\n```",
+      "!`bash \"${CLAUDE_SKILL_DIR}/../../hooks/yaml-helper.sh\" resolve_config --keys project.stage,workflow`",
+      "1. `engine-setup` not PRESENT \u2192 `/setup-engine` 2. `game-brief` not PRESENT \u2192 `/reverse-document design [code root]` when the    code root already holds the game (10 or more source",
+      "!`bash \"${CLAUDE_SKILL_DIR}/../../scripts/story-status.sh\"`"
+    ]
+  },
+  {
+    "source": ".claude/skills/hotfix/SKILL.md",
+    "removed_transport_sections": [
+      "Confirm with `AskUserQuestion`: - Prompt: \"I've assessed this as **[assessed severity]** \u2014 [brief rationale]. Confirm severity to proceed:\" - Options:   - `[A] S1 (Critical) \u2014 cras",
+      "Ask: \"May I write this to `production/hotfixes/hotfix-[date]-[short-name].md`?\"",
+      "If the check passes, use `AskUserQuestion` before creating the branch: - Prompt: \"Ready to create hotfix branch 'hotfix/[short-name]' from [base-ref]?\" - Options:   - `[A] Yes \u2014 cr",
+      "Present the root cause and proposed fix, then ask: \"May I implement this fix?\" Do not modify any code before this approval \u2014 an emergency flow earns its audit trail by approving th",
+      "- `subagent_type: lead-programmer` \u2014 Review the fix for correctness and side effects - `subagent_type: qa-tester` \u2014 Run targeted regression tests on the affected system - `subagent",
+      "> **STOP \u2014 deployment requires explicit approval, unconditionally.** Merging a > hotfix and tagging the patch release is the one irreversible act in this skill, > so it is gated ev",
+      "Update the original bug file if one exists \u2014 find it in `production/qa/bugs/` by its number, as `/bug-report verify` does. Ask first: \"May I update `production/qa/bugs/[bug file]` ",
+      "Use `AskUserQuestion`: - Prompt: \"Hotfix complete. What's the next step?\" - Options:   - `[A] Run /smoke-check to verify the fix`   - `[B] Run /patch-notes to document this hotfix`"
+    ]
+  },
+  {
+    "source": ".claude/skills/launch-checklist/SKILL.md",
+    "removed_transport_sections": [
+      "!`bash \"${CLAUDE_SKILL_DIR}/../../hooks/yaml-helper.sh\" resolve_config --keys rigor,workflow,project.stage,cert_tier,automation`",
+      "**Automation mode**: Resolve `modes.automation` (`project.local.yaml` \u2192 `project.yaml` \u2192 default `collaborative`). Every `AskUserQuestion` call and every file write follows `.claud",
+      "For each of the seven sections, collect the items no scan or file settled (the Phase 3 counts and anything read in Phase 2 are not asked again) and ask **one `AskUserQuestion` per ",
+      "If not in dry-run mode, ask: \"May I write this to `production/releases/launch-checklist-[date].md`?\""
+    ]
+  },
+  {
+    "source": ".claude/skills/localize/SKILL.md",
+    "removed_transport_sections": [
+      "!`bash \"${CLAUDE_SKILL_DIR}/../../hooks/yaml-helper.sh\" resolve_config --keys automation`",
+      "Every `AskUserQuestion` call follows `.claude/docs/automation-modes.md` (collaborative asks always \u00b7 guided major-only \u00b7 autonomous logs and proceeds; `automation_always_ask` categ",
+      "Present the diff to the user. Ask: \"May I write these new entries to `assets/data/strings/strings-en.json`?\"",
+      "Ask: \"May I write this translator brief to `production/localization/translator-brief-[locale]-[date].md`?\"",
+      "Ask: \"May I write this cultural review report to `production/localization/cultural-review-[date].md`?\"",
+      "Ask: \"May I write the VO recording scripts to `production/localization/vo-scripts-[locale]-[date].md`?\"",
+      "Ask: \"May I write this RTL check report to `production/localization/rtl-check-[date].md`?\"",
+      "Use `AskUserQuestion`: - Prompt: \"Call string freeze now? This writes `production/localization/freeze-status.md` (Status: ACTIVE) and locks the source table.\" - Options: `[A] Yes \u2014",
+      "If argument includes `lift`: ask \"May I update `freeze-status.md` to LIFTED?\", then set its Status to `LIFTED` and record the reason and date. Warn: \"Lifting the freeze requires re",
+      "When `extract` mode finds new or modified strings and `freeze-status.md` shows Status: ACTIVE \u2014 name `freeze-status.md` in extract's own \"May I write\" question, append the new keys",
+      "Ask: \"May I write this localization QA report to `production/localization/loc-qa-[locale]-[date].md`?\""
+    ]
+  },
+  {
+    "source": ".claude/skills/map-systems/SKILL.md",
+    "removed_transport_sections": [
+      "Collaborative Protocol",
+      "!`bash \"${CLAUDE_SKILL_DIR}/../../hooks/yaml-helper.sh\" resolve_config --keys review_mode,automation,workflow,docs.density,project.stage`",
+      "Every `AskUserQuestion` call follows `.claude/docs/automation-modes.md` (collaborative asks always \u00b7 guided major-only \u00b7 autonomous logs and proceeds; `automation_always_ask` categ",
+      "**If the systems index already exists:** - Read it and present current status to the user - Use `AskUserQuestion` to ask:   \"The systems index already exists with [N] systems ([M] ",
+      "Then use `AskUserQuestion` to capture feedback: - \"Are there systems missing from this list?\" - \"Should any of these be combined or split?\" - \"Are there systems listed that this ga",
+      "**At `collaborative`** \u2014 iterate until the user approves the enumeration. **At `guided`** \u2014 ask once, apply the answer, and proceed; do not loop. **At `autonomous`** \u2014 do not ask. ",
+      "Use `AskUserQuestion` to ask: \"Does this dependency ordering look right? Any dependencies I'm missing or that should be removed?\"",
+      "Use `AskUserQuestion` to ask: \"Do these priority assignments match your vision? Which systems should be higher or lower priority?\"",
+      "**At `automation: collaborative`** \u2014 ask: \"May I write the systems index to `design/gdd/systems-index.md`?\" Wait for approval. Write the file only after \"yes.\"",
+      "**At `automation: guided`** \u2014 a **new** index gets the same \"May I write \u2026?\" question, because `.claude/docs/automation-modes.md` has `guided` ask \"May I write?\" for new files. Whe",
+      "Present the assessment. If REJECT, revise the system set with the user before GDD authoring begins. If CONCERNS, show them and use `AskUserQuestion`: `Revise the system set` / `Acc",
+      "Use `AskUserQuestion` for: \"Start designing [system-name] now, pick a different system, or stop here?\"",
+      "After `/design-system` completes, use `AskUserQuestion`: - \"Continue to the next system ([next system name])?\" - \"Pick a different system?\" - \"Stop here for this session?\"",
+      "After the systems index is created (or after designing some systems), present next actions using `AskUserQuestion`:"
+    ]
+  },
+  {
+    "source": ".claude/skills/milestone-review/SKILL.md",
+    "removed_transport_sections": [
+      "!`bash \"${CLAUDE_SKILL_DIR}/../../hooks/yaml-helper.sh\" resolve_config --keys review_mode,automation,workflow`",
+      "Every `AskUserQuestion` call follows `.claude/docs/automation-modes.md` (collaborative asks always \u00b7 guided major-only \u00b7 autonomous logs and proceeds; `automation_always_ask` categ",
+      "If OFF TRACK, use `AskUserQuestion` before generating the recommendation: - Prompt: \"Producer verdict: OFF TRACK. The milestone is in jeopardy. This review will recommend NO-GO. Ho",
+      "If AT RISK, use `AskUserQuestion`: - Prompt: \"Producer verdict: AT RISK. Milestone may slip. How should the Go/No-Go section be framed?\" - Options:   - `[A] CONDITIONAL GO \u2014 includ",
+      "Ask: \"May I write this to `production/milestones/[milestone-name]-review.md`?\""
+    ]
+  },
+  {
+    "source": ".claude/skills/onboard/SKILL.md",
+    "removed_transport_sections": [
+      "!`bash \"${CLAUDE_SKILL_DIR}/../../hooks/yaml-helper.sh\" resolve_config --keys automation`",
+      "**Automation mode**: Resolve `modes.automation` (`project.local.yaml` \u2192 `project.yaml` \u2192 default `collaborative`). Every `AskUserQuestion` call and every file write follows `.claud",
+      "Ask: \"May I write this to `production/onboarding/onboard-[role]-[date].md`?\""
+    ]
+  },
+  {
+    "source": ".claude/skills/patch-notes/SKILL.md",
+    "removed_transport_sections": [
+      "!`bash \"${CLAUDE_SKILL_DIR}/../../hooks/yaml-helper.sh\" resolve_config --keys automation`",
+      "**Automation mode**: Resolve `modes.automation` (`project.local.yaml` \u2192 `project.yaml` \u2192 default `collaborative`). Every `AskUserQuestion` call and every file write follows `.claud",
+      "Ask: \"May I write these patch notes to `docs/patch-notes/[version].md`, and an archive copy to `production/releases/[version]/patch-notes.md`?\""
+    ]
+  },
+  {
+    "source": ".claude/skills/perf-profile/SKILL.md",
+    "removed_transport_sections": [
+      "Transport-specific code block: ```bash\nbash \"${CLAUDE_SKILL_DIR}/../../hooks/yaml-helper.sh\" get_effective_yaml_key performance.target_framerate\nbash \"",
+      "!`bash \"${CLAUDE_SKILL_DIR}/../../hooks/yaml-helper.sh\" resolve_config --keys performance.enforce,automation,workflow`",
+      "Every `AskUserQuestion` call follows `.claude/docs/automation-modes.md` (collaborative asks always \u00b7 guided major-only \u00b7 autonomous logs and proceeds; `automation_always_ask` categ",
+      "**Write the report to `production/polish/[scope]-report-[date].md`**, asking first per the Collaboration Protocol: *\"May I write this profiling report to `production/polish/[scope]"
+    ]
+  },
+  {
+    "source": ".claude/skills/playtest-report/SKILL.md",
+    "removed_transport_sections": [
+      "!`bash \"${CLAUDE_SKILL_DIR}/../../hooks/yaml-helper.sh\" resolve_config --keys review_mode,automation`",
+      "Every `AskUserQuestion` call follows `.claude/docs/automation-modes.md` (collaborative asks always \u00b7 guided major-only \u00b7 autonomous logs and proceeds; `automation_always_ask` categ",
+      "- `new` \u2192 generate a blank playtest report template. This mode ends after   Phase 2A: a blank template has nothing to route, review or save. - `analyze [path]` \u2192 read raw notes and",
+      "Ask: \"May I write this playtest report to `production/qa/playtests/playtest-[date]-[tester].md`?\""
+    ]
+  },
+  {
+    "source": ".claude/skills/project-stage-detect/SKILL.md",
+    "removed_transport_sections": [
+      "Collaborative Protocol",
+      "Transport-specific code block: ```\nBash: bash .claude/scripts/artifact-check.sh\n```",
+      "Transport-specific code block: ```\nI've analyzed your project. Here's what I found:\n\n[Show summary]\n\nGaps identified:\n1. [Gap 1 + question]\n2. [Gap 2 +",
+      "!`bash \"${CLAUDE_SKILL_DIR}/../../hooks/yaml-helper.sh\" resolve_config --keys workflow,automation`",
+      "**Automation mode**: Resolve `modes.automation` (`project.local.yaml` \u2192 `project.yaml` \u2192 default `collaborative`). Every `AskUserQuestion` call and every file write follows `.claud",
+      "Wait for user approval before creating the file."
+    ]
+  },
+  {
+    "source": ".claude/skills/propagate-design-change/SKILL.md",
+    "removed_transport_sections": [
+      "Transport-specific code block: ```\nbash .claude/scripts/md-section.sh replace docs/architecture/[adr-file].md \"Status\" <<'EOF'\nSuperseded \u2014 replacement",
+      "!`bash \"${CLAUDE_SKILL_DIR}/../../hooks/yaml-helper.sh\" resolve_config --keys review_mode,review_gate,automation,automation_always_ask,workflow,system_overrides`",
+      "From the hunks: the `@@` headers name the section each change sits in, so the changed-section list comes from the diff itself. A section with no hunk is unchanged by construction. ",
+      "`bash .claude/scripts/adr-status.sh` lists every ADR with its status, layer and missing sections.",
+      "1. each ADR's GDD Requirements Addressed section    (`bash .claude/scripts/md-section.sh extract <adr> \"GDD Requirements Addressed\"`),    for rows naming the changed GDD; 2. a sear",
+      "**Mark Superseded.** Ask \"May I set the Status of [ADR file] to Superseded?\" On yes, replace only the body of its `## Status` section:",
+      "When `docs/architecture/requirements-traceability.md` exists, ask \"May I add the changed requirements to the traceability index?\" On yes, add a row per changed requirement:",
+      "Ask \"May I write the change impact report to `docs/architecture/change-impact-[date]-[system-slug].md`?\" It holds the change summary, the impact analysis, the resolution chosen for"
+    ]
+  },
+  {
+    "source": ".claude/skills/prototype/SKILL.md",
+    "removed_transport_sections": [
+      "!`bash \"${CLAUDE_SKILL_DIR}/../../hooks/yaml-helper.sh\" resolve_config --keys review_mode,automation,workflow`"
+    ]
+  },
+  {
+    "source": ".claude/skills/prototype/references/1-question.md",
+    "removed_transport_sections": [
+      "Every `AskUserQuestion` call follows `.claude/docs/automation-modes.md` (collaborative asks always \u00b7 guided major-only \u00b7 autonomous logs and proceeds; `automation_always_ask` categ",
+      "Then, unless `--spike` sent you to Spike Mode, use `AskUserQuestion` to confirm intent before proceeding \u2014 with or without a carry-forward note:"
+    ]
+  },
+  {
+    "source": ".claude/skills/prototype/references/2-load-context.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/skills/prototype/references/3-choose-path.md",
+    "removed_transport_sections": [
+      "Assess which path best fits the hypothesis, then use `AskUserQuestion` with your recommendation pre-stated:"
+    ]
+  },
+  {
+    "source": ".claude/skills/prototype/references/4-plan.md",
+    "removed_transport_sections": [
+      "Present this plan to the user before building. Get confirmation before proceeding. Name the checkpoint file in that confirmation: \"May I record this plan in `production/session-sta"
+    ]
+  },
+  {
+    "source": ".claude/skills/prototype/references/5-implement.md",
+    "removed_transport_sections": [
+      "Ask: \"May I create the prototype directory at `prototypes/[concept-name]-concept/` and begin implementation?\""
+    ]
+  },
+  {
+    "source": ".claude/skills/prototype/references/6-debrief.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/skills/prototype/references/7-report.md",
+    "removed_transport_sections": [
+      "Ask: \"May I write this report to `prototypes/[concept-name]-concept/REPORT.md` and add its row to `prototypes/index.md`?\""
+    ]
+  },
+  {
+    "source": ".claude/skills/prototype/references/8-cd-review.md",
+    "removed_transport_sections": [
+      "- **APPROVE** \u2192 the recommendation stands. - **CONCERNS** \u2192 show the concerns alongside the recommendation, then use   `AskUserQuestion`: `Revise the recommendation` / `Accept with",
+      "When the director returned CONCERNS, REJECT or NOT ASSESSED, ask \"May I update `prototypes/[concept-name]-concept/REPORT.md` and its `prototypes/index.md` row?\", then record the di"
+    ]
+  },
+  {
+    "source": ".claude/skills/prototype/references/9-summary.md",
+    "removed_transport_sections": [
+      "Ask: \"May I write this to `prototypes/[concept-name]-concept/PIVOT-NOTE.md`?\"",
+      "**Document the kill in `prototypes/GRAVEYARD.md`** (create if it doesn't exist). Ask: \"May I append this concept to `prototypes/GRAVEYARD.md`?\" If yes, add one entry:"
+    ]
+  },
+  {
+    "source": ".claude/skills/prototype/references/spike-mode.md",
+    "removed_transport_sections": [
+      "2. **Choose path** \u2014 same AskUserQuestion widget as Phase 3 (HTML / Engine / Paper).",
+      "4. **Build** \u2014 first ask \"May I create `prototypes/[concept-name]-spike-[date]/` and build the spike there?\" Same relaxed standards and header as the concept prototype. Hard cap: 4",
+      "6. **Write a spike note** (not a full report) to `prototypes/[concept-name]-spike-[date]/SPIKE-NOTE.md` \u2014 first ask once for this step and the next, naming both files: \"May I write"
+    ]
+  },
+  {
+    "source": ".claude/skills/qa-plan/SKILL.md",
+    "removed_transport_sections": [
+      "Collaborative Protocol",
+      "!`bash \"${CLAUDE_SKILL_DIR}/../../hooks/yaml-helper.sh\" resolve_config --keys automation,workflow,qa.level,system_overrides`",
+      "Every `AskUserQuestion` call follows `.claude/docs/automation-modes.md` (collaborative asks always \u00b7 guided major-only \u00b7 autonomous logs and proceeds; `automation_always_ask` categ",
+      "**Argument:** `$ARGUMENTS` (blank = ask user via AskUserQuestion)",
+      "- **`sprint`** \u2014 read the most recent file in `production/sprints/`, extract   every story file path referenced. If `production/sprint-status.yaml` exists,   use it as the primary ",
+      "Show the complete plan in conversation (or a summary if the plan is very long), then ask two questions together using `AskUserQuestion`:"
+    ]
+  },
+  {
+    "source": ".claude/skills/quick-design/SKILL.md",
+    "removed_transport_sections": [
+      "!`bash \"${CLAUDE_SKILL_DIR}/../../hooks/yaml-helper.sh\" resolve_config --keys automation,workflow`",
+      "Every `AskUserQuestion` call follows `.claude/docs/automation-modes.md` (collaborative asks always \u00b7 guided major-only \u00b7 autonomous logs and proceeds; `automation_always_ask` categ",
+      "Present the inferred classification using `AskUserQuestion`: - Prompt: \"I've classified this as **[inferred type]** \u2014 [brief reason]. Is that correct?\" - Options:   - `[A] Yes \u2014 [i",
+      "Present the draft to the user in full. Then use `AskUserQuestion`: - Prompt: \"Here's the Quick Design Spec draft. How do you want to proceed?\" - Options:   - `[A] Approve \u2014 write i",
+      "If [A]: ask \"May I write this Quick Design Spec to `design/quick-specs/[kebab-case-title]-[YYYY-MM-DD].md`?\"",
+      "\"This spec modifies rules in [System Name]. May I update `design/gdd/[filename].md` \u2014 specifically the [section name] section?\""
+    ]
+  },
+  {
+    "source": ".claude/skills/regression-suite/SKILL.md",
+    "removed_transport_sections": [
+      "Collaborative Protocol",
+      "!`bash \"${CLAUDE_SKILL_DIR}/../../hooks/yaml-helper.sh\" resolve_config --keys automation,workflow,qa.level,system_overrides`",
+      "Every `AskUserQuestion` call follows `.claude/docs/automation-modes.md` (collaborative asks always \u00b7 guided major-only \u00b7 autonomous logs and proceeds; `automation_always_ask` categ",
+      "**Modes:** - `/regression-suite update` \u2014 scan new bug fixes this sprint and check   for regression test presence; add new tests to the suite manifest - `/regression-suite audit` \u2014",
+      "In `update` or `audit` mode, ask: \"May I write/update `tests/regression-suite.md` with the current regression suite manifest?\""
+    ]
+  },
+  {
+    "source": ".claude/skills/release-checklist/SKILL.md",
+    "removed_transport_sections": [
+      "!`bash \"${CLAUDE_SKILL_DIR}/../../hooks/yaml-helper.sh\" resolve_config --keys rigor,workflow,project.stage,cert_tier,automation`",
+      "**Automation mode**: Resolve `modes.automation` (`project.local.yaml` \u2192 `project.yaml` \u2192 default `collaborative`). Every `AskUserQuestion` call and every file write follows `.claud",
+      "Ask: \"May I write this to `production/releases/release-checklist-[version].md`?\""
+    ]
+  },
+  {
+    "source": ".claude/skills/retrospective/SKILL.md",
+    "removed_transport_sections": [
+      "!`bash \"${CLAUDE_SKILL_DIR}/../../hooks/yaml-helper.sh\" resolve_config --keys automation,workflow,qa.level`",
+      "Every `AskUserQuestion` call follows `.claude/docs/automation-modes.md` (collaborative asks always \u00b7 guided major-only \u00b7 autonomous logs and proceeds; `automation_always_ask` categ",
+      "If a matching file is found, use `AskUserQuestion`: - Prompt: \"An existing retrospective was found: [filename]. How do you want to proceed?\" - Options:   - `[A] Update existing \u2014 l",
+      "If [A]: read the existing file and carry its content forward, revising sections with new data. If [B]: continue to Phase 2 with a blank slate. Before writing the new file, rename t",
+      "Then use `AskUserQuestion` to present these options ([C] only at `workflow: minimal`):",
+      "Ask: \"May I write this to `production/retrospectives/retro-sprint-[N]-[date].md`?\" (or `production/retrospectives/retro-[milestone-name]-[date].md` for milestone retrospectives)",
+      "Otherwise, use `AskUserQuestion`: - Prompt: \"Retrospective complete. The action items and velocity data are ready. Would you like to start sprint planning now with this data pre-lo"
+    ]
+  },
+  {
+    "source": ".claude/skills/reverse-document/SKILL.md",
+    "removed_transport_sections": [
+      "Collaborative Protocol",
+      "Transport-specific code block: ```\nI've drafted the [system-name] design doc based on your code and clarifications.\n\n[Show key sections: Overview, Mech",
+      "Transport-specific code block: ```\nUser: /reverse-document design <code root>/gameplay/[system]\n\nAgent: I'll analyze your [system] implementation to cr",
+      "!`bash \"${CLAUDE_SKILL_DIR}/../../hooks/yaml-helper.sh\" resolve_config --keys workflow,system_overrides,automation`",
+      "**Automation mode**: Resolve `modes.automation` (`project.local.yaml` \u2192 `project.yaml` \u2192 default `collaborative`). Every `AskUserQuestion` call and every file write follows `.claud",
+      "**At `collaborative`** \u2014 wait for approval; the user may request changes before writing. **At `guided`** \u2014 this is a *new* file, so `automation-modes.md:81` still has it asked (\"Ma"
+    ]
+  },
+  {
+    "source": ".claude/skills/review-all-gdds/SKILL.md",
+    "removed_transport_sections": [
+      "Collaborative Protocol",
+      "!`bash \"${CLAUDE_SKILL_DIR}/../../hooks/yaml-helper.sh\" resolve_config --keys automation,workflow,system_overrides`",
+      "Every `AskUserQuestion` call follows `.claude/docs/automation-modes.md` (collaborative asks always \u00b7 guided major-only \u00b7 autonomous logs and proceeds; `automation_always_ask` categ",
+      "Spawn both as `game-designer` sub-agents (`subagent_type: game-designer`) \u2014 GDD consistency and design-theory review is its domain."
+    ]
+  },
+  {
+    "source": ".claude/skills/review-all-gdds/references/1-load.md",
+    "removed_transport_sections": [
+      "Transport-specific code block: ```\nBash: bash .claude/scripts/review-scope.sh\n```"
+    ]
+  },
+  {
+    "source": ".claude/skills/review-all-gdds/references/2-consistency.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/skills/review-all-gdds/references/3-design-holism.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/skills/review-all-gdds/references/4-scenarios.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/skills/review-all-gdds/references/5-report.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/skills/review-all-gdds/references/6-write.md",
+    "removed_transport_sections": [
+      "Use `AskUserQuestion` for write permission: - Prompt: \"May I write this review to `design/gdd/gdd-cross-review-[date].md`?\" - Options: `[A] Yes \u2014 write the report` / `[B] No \u2014 skip",
+      "> **`[date]` here means ISO 8601 \u2014 `YYYY-MM-DD`, e.g. > `gdd-cross-review-2026-08-19.md`. This is not a style preference.** > `.claude/scripts/review-scope.sh` picks the prior revi",
+      "If any GDDs are flagged for revision, use a second `AskUserQuestion`: - Prompt: \"Should I update the systems index to mark these GDDs as needing revision? ([list of flagged GDDs])\"",
+      "    ## Session Extract \u2014 /review-all-gdds [date]     - Verdict: [PASS / NOT ASSESSED / CONCERNS / FAIL]     - GDDs reviewed: [N of M present]     - Phases not run: [names, or \"None"
+    ]
+  },
+  {
+    "source": ".claude/skills/review-all-gdds/references/7-handoff.md",
+    "removed_transport_sections": [
+      "After all file writes are complete, use `AskUserQuestion` for a closing widget."
+    ]
+  },
+  {
+    "source": ".claude/skills/scope-check/SKILL.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/skills/security-audit/SKILL.md",
+    "removed_transport_sections": [
+      "Collaborative Protocol",
+      "!`bash \"${CLAUDE_SKILL_DIR}/../../hooks/yaml-helper.sh\" resolve_config --keys automation,workflow`",
+      "**Automation mode**: Resolve `modes.automation` (`project.local.yaml` \u2192 `project.yaml` \u2192 default `collaborative`). Every `AskUserQuestion` call and every file write follows `.claud",
+      "Ask: \"May I write the full security audit report to `production/security/security-audit-[date]-[scope].md`?\""
+    ]
+  },
+  {
+    "source": ".claude/skills/settings/SKILL.md",
+    "removed_transport_sections": [
+      "Transport-specific code block: ```bash\nbash \"${CLAUDE_SKILL_DIR}/../../hooks/yaml-helper.sh\" <helper call>\n```",
+      "If `.claude/hooks/yaml-helper.sh` is missing, this is not a CCGS project. Report the error and exit.",
+      "1b. **Known-key check**: run, from the project root as in Phase 1,    `bash .claude/scripts/config-set.sh <key> <value> --dry-run` and read its    `known` row. If it says `yes`, pr",
+      "4. **Approval gate**: use `AskUserQuestion`:    - Prompt: ``Set `<key>=<value>` in `project.yaml`?``    - Options: `[A] Yes, write` / `[B] No, cancel`",
+      "   **Case D \u2014 file structure is unusual** (commented-out keys with the    same name, ambiguous nesting, malformed YAML): STOP and ask via    `AskUserQuestion`:    > \"Couldn't find ",
+      "4. **Approval gate**: use `AskUserQuestion`:    - Prompt: ``Set `<key>=<value>` in `project.local.yaml` (your personal override, gitignored)?``    - Options: `[A] Yes, write` / `[B"
+    ]
+  },
+  {
+    "source": ".claude/skills/setup-engine/SKILL.md",
+    "removed_transport_sections": [
+      "!`bash \"${CLAUDE_SKILL_DIR}/../../hooks/yaml-helper.sh\" resolve_config --keys workflow`",
+      "Ask: \"May I add a Version Awareness section to the engine specialist agent files?\" before making any edits."
+    ]
+  },
+  {
+    "source": ".claude/skills/setup-engine/references/11-upgrade.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/skills/setup-engine/references/12-output-summary.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/skills/setup-engine/references/2-guided-mode.md",
+    "removed_transport_sections": [
+      "**Question 1 \u2014 Prior experience** (ask this first, always, via `AskUserQuestion`): - Prompt: \"Have you worked in any of these engines before?\" - Options: `Godot` / `Unity` / `Unrea",
+      "**Question 2 \u2014 Target platform** (ask this second, always, via `AskUserQuestion` \u2014 platform eliminates or heavily weights engines before any other factor): - Prompt: \"What platform",
+      "**Recommendation format:** 1. Show a comparison table with the user's specific factors as rows 2. Give a primary recommendation with honest reasoning 3. Name the best alternative a",
+      "**If the user picks \"Explore further\":** Use `AskUserQuestion` with concept-specific deep-dive topics. Always generate these options from the user's actual concept \u2014 do not use gen"
+    ]
+  },
+  {
+    "source": ".claude/skills/setup-engine/references/3-version.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/skills/setup-engine/references/4-claude-md-stack.md",
+    "removed_transport_sections": [
+      "If Unreal was chosen, ask via `AskUserQuestion`: \"Will most gameplay logic live in C++ or in Blueprints?\" \u2014 `[A] C++ (Blueprints for tuning and prototyping)` / `[B] Blueprint-prima",
+      "Read `CLAUDE.md` and show the user the proposed Technology Stack changes. Ask: \"May I write these engine settings to `CLAUDE.md`?\""
+    ]
+  },
+  {
+    "source": ".claude/skills/setup-engine/references/5-technical-preferences.md",
+    "removed_transport_sections": [
+      "### Remaining Sections - **Performance Budgets**: Use `AskUserQuestion`:   - Prompt: \"Should I set default performance budgets now, or leave them for later?\"   - Options: `[A] Set ",
+      "### Collaborative Step Present the filled-in preferences to the user. For Godot, include the chosen language and note where the full naming conventions and routing tables live: > \""
+    ]
+  },
+  {
+    "source": ".claude/skills/setup-engine/references/5.5-project-yaml.md",
+    "removed_transport_sections": [
+      "> **What each exit code proves \u2014 every row verified on the pinned engines.** > Godot `test` exits 0 when all pass, 100 on a failure, 101 when all pass but > nodes leaked (a warning",
+      "> **`commands.run` is the one the run-and-observe step depends on.** It must > launch the **game**, windowed, at a fixed resolution \u2014 never the editor, and > never with a headless ",
+      "> \"May I write the `engine`, `specialists`, `naming`, and `commands` blocks to `project.yaml`?\""
+    ]
+  },
+  {
+    "source": ".claude/skills/setup-engine/references/6-knowledge-gap.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/skills/setup-engine/references/7-reference-docs.md",
+    "removed_transport_sections": [
+      "- **No directory, or no `VERSION.md`** \u2192 create, using the risk branch below. - **Same version** \u2192 nothing to regenerate. Refresh `Last Docs Verified` only if you   actually re-ver",
+      "Ask: \"May I create `docs/engine-reference/<engine>/VERSION.md`?\" Wait for confirmation, then create this minimal file:",
+      "Ask: \"May I create the engine reference docs under `docs/engine-reference/<engine>/`?\""
+    ]
+  },
+  {
+    "source": ".claude/skills/setup-engine/references/7.5-scaffold.md",
+    "removed_transport_sections": [
+      "Show the proposed file, then ask: *\"May I create `project.godot` at the repo root?\"* On approval, write:"
+    ]
+  },
+  {
+    "source": ".claude/skills/setup-engine/references/8-verify.md",
+    "removed_transport_sections": [
+      "Transport-specific code block: ```bash\nbash .claude/scripts/project-coherence.sh\n```"
+    ]
+  },
+  {
+    "source": ".claude/skills/setup-engine/references/godot-language-config.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/skills/skill-improve/SKILL.md",
+    "removed_transport_sections": [
+      "!`bash \"${CLAUDE_SKILL_DIR}/../../hooks/yaml-helper.sh\" resolve_config --keys automation`",
+      "**Automation mode**: Resolve `modes.automation` (`project.local.yaml` \u2192 `project.yaml` \u2192 default `collaborative`). Every `AskUserQuestion` call and every file write follows `.claud",
+      "Ask: \"May I write this improved version to `.claude/skills/[name]/SKILL.md`?\"",
+      "**If combined score is the same or worse:** Report: \"Combined score did not improve.\" Show what changed and why it may not have helped. Ask: \"May I restore `.claude/skills/[name]/S"
+    ]
+  },
+  {
+    "source": ".claude/skills/skill-test/SKILL.md",
+    "removed_transport_sections": [
+      "Check 4 \u2014 Collaborative Protocol Language",
+      "Transport-specific code block: ```\n=== Skill Static Check: /[name] ===\n\nCheck 1 \u2014 Frontmatter Fields:    PASS\nCheck 2 \u2014 Multiple Phases:       PASS (7 ",
+      "Transport-specific code block: ```\n=== Skill Spec Test: /[name] ===\nDate: [date]\nSpec: studio-tests/skills/[category]/[name].md\n\nStatic Assertions:\n  [",
+      "!`bash \"${CLAUDE_SKILL_DIR}/../../hooks/yaml-helper.sh\" resolve_config --keys automation`",
+      "**Automation mode**: Resolve `modes.automation` (`project.local.yaml` \u2192 `project.yaml` \u2192 default `collaborative`). Every `AskUserQuestion` call and every file write follows `.claud",
+      "### Check 1 \u2014 Required Frontmatter Fields The file must contain all of these in the YAML frontmatter block: - `name:` - `description:` - `argument-hint:` - `user-invocable:` - `all",
+      "Run `bash .claude/scripts/agent-check.sh --skill [name]` for a skill, `bash .claude/scripts/agent-check.sh --agent [name]` for an agent, or `bash .claude/scripts/agent-check.sh` on",
+      "Run `bash .claude/scripts/compat-inventory.sh --skill [name]` for a skill, `bash .claude/scripts/compat-inventory.sh --agent [name]` for an agent, or `bash .claude/scripts/compat-i",
+      "- **Static Assertions** \u2014 check each against the agent's frontmatter and body.   An assertion that names a literal value (a `model:` alias, a frontmatter key,   a tool name) is an ",
+      "**For a skill**, check each of the spec's **Static Assertions** against the skill's frontmatter and body (`SKILL.md` and its `references/` files) the same way; a literal value is a",
+      "For a skill's **Protocol Compliance** section (always present), evaluate each line of the spec's own list against the skill's files exactly as you evaluate a case assertion \u2014 PASS,",
+      "\"May I write these results to `studio-tests/results/skill-test-spec-[name]-[date].md` and update `studio-tests/catalog.yaml`?\"",
+      "\"May I update `studio-tests/catalog.yaml` to record this category check (`last_category`, `last_category_result`) for [name]?\""
+    ]
+  },
+  {
+    "source": ".claude/skills/smoke-check/SKILL.md",
+    "removed_transport_sections": [
+      "Collaborative Protocol",
+      "!`bash \"${CLAUDE_SKILL_DIR}/../../hooks/yaml-helper.sh\" resolve_config --keys automation,workflow,qa.level,testing.strict`",
+      "Every `AskUserQuestion` call follows `.claude/docs/automation-modes.md` (collaborative asks always \u00b7 guided major-only \u00b7 autonomous logs and proceeds; `automation_always_ask` categ"
+    ]
+  },
+  {
+    "source": ".claude/skills/smoke-check/references/1-detect-setup.md",
+    "removed_transport_sections": [
+      "0. **Config coherence**: run `bash .claude/scripts/project-coherence.sh`."
+    ]
+  },
+  {
+    "source": ".claude/skills/smoke-check/references/2-run-tests.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/skills/smoke-check/references/3-coverage.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/skills/smoke-check/references/4-manual-checks.md",
+    "removed_transport_sections": [
+      "Use `AskUserQuestion` to batch-verify. Keep to at most 3 calls."
+    ]
+  },
+  {
+    "source": ".claude/skills/smoke-check/references/5-report.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/skills/smoke-check/references/6-write-gate.md",
+    "removed_transport_sections": [
+      "\"May I write this smoke check report to `production/qa/smoke-[date].md`?\""
+    ]
+  },
+  {
+    "source": ".claude/skills/soak-test/SKILL.md",
+    "removed_transport_sections": [
+      "Collaborative Protocol",
+      "!`bash \"${CLAUDE_SKILL_DIR}/../../hooks/yaml-helper.sh\" resolve_config --keys automation,workflow`",
+      "**Automation mode**: Resolve `modes.automation` (`project.local.yaml` \u2192 `project.yaml` \u2192 default `collaborative`). Every `AskUserQuestion` call and every file write follows `.claud",
+      "\"May I write this soak test protocol to `production/qa/soak-test-[date]-[duration].md`?\""
+    ]
+  },
+  {
+    "source": ".claude/skills/sprint-plan/SKILL.md",
+    "removed_transport_sections": [
+      "!`bash \"${CLAUDE_SKILL_DIR}/../../hooks/yaml-helper.sh\" resolve_config --keys review_mode,automation,story_granularity,workflow`",
+      "!`ls production/sprints/ 2>/dev/null || echo \"(no production/sprints/ directory yet)\"`",
+      "Every `AskUserQuestion` call follows `.claude/docs/automation-modes.md` (collaborative asks always \u00b7 guided major-only \u00b7 autonomous logs and proceeds; `automation_always_ask` categ",
+      "1. Read the most recent sprint plan from `production/sprints/`. 2. Present the current story list with their current statuses from `production/sprint-status.yaml`. 3. Ask the user ",
+      "If CONCERNS, use `AskUserQuestion`: - Prompt: \"Producer flagged concerns with this sprint plan. How do you want to proceed?\" - Options:   - `[A] Proceed as planned \u2014 I accept the r",
+      "Use `AskUserQuestion`: - Prompt: \"No QA plan found for this sprint. How do you want to proceed?\" - Options:   - `[A] Run /qa-plan sprint now \u2014 I'll do that before starting implemen",
+      "Ask: \"May I write the sprint plan to `production/sprints/sprint-NNN.md` (`[N]` zero-padded to three digits) and `production/sprint-status.yaml`?\" Ask it even when an earlier answer"
+    ]
+  },
+  {
+    "source": ".claude/skills/sprint-status/SKILL.md",
+    "removed_transport_sections": [
+      "Collaborative Protocol",
+      "!`bash \"${CLAUDE_SKILL_DIR}/../../hooks/yaml-helper.sh\" resolve_config --keys story_granularity,workflow`",
+      "- If an argument is given (e.g., `/sprint-status 3`), search   `production/sprints/` for a file matching `sprint-003.md`, `sprint-03.md`, `sprint-3.md`,   or similar (`/sprint-plan",
+      "!`bash \"${CLAUDE_SKILL_DIR}/../../scripts/story-status.sh\"`"
+    ]
+  },
+  {
+    "source": ".claude/skills/start/SKILL.md",
+    "removed_transport_sections": [
+      "Run `bash .claude/scripts/project-state.sh` and keep its rows. Do not show them yet; they check the user's answer in Phase 2.",
+      "- **Save them:** run `bash .claude/scripts/set-stage.sh \"[stage]\"`, then, only when rigor was not   already set, `bash .claude/scripts/config-set.sh modes.rigor [value]`. Check the",
+      "Mapping: `Guided` \u2192 `guided`, `Collaborative` \u2192 `collaborative`, `Autonomous` \u2192 `autonomous`. The pick is the consent to write it: run `bash .claude/scripts/config-set.sh modes.aut"
+    ]
+  },
+  {
+    "source": ".claude/skills/story-done/CONTRACT.md",
+    "removed_transport_sections": [
+      "## Role in Pipeline Closes the implementation loop for a single story by verifying every acceptance criterion, checking test evidence, detecting GDD/ADR deviations, and \u2014 after use",
+      "### Files Written | File | Guaranteed Fields / Sections | Notes | |------|------------------------------|-------| | `production/epics/**/*.md` (the story file) | `Status: Complete`",
+      "## Immutability Rules - READS but does NOT modify: `docs/architecture/tr-registry.yaml`, `docs/architecture/adr-NNNN-[slug].md` (Decision + Consequences only), GDD sections, `docs/",
+      "## Hard Constraints (Never Violate) - Never sets `Status: Complete` without explicit user approval (\"May I update the story file?\") - Never marks a Logic story Complete on a missin"
+    ]
+  },
+  {
+    "source": ".claude/skills/story-done/SKILL.md",
+    "removed_transport_sections": [
+      "!`bash \"${CLAUDE_SKILL_DIR}/../../hooks/yaml-helper.sh\" resolve_config --keys review_mode,review_gate,automation,automation_always_ask,workflow,qa.level,gate_level,system_overrides",
+      "1. The checkpoint in `production/session-state/active.md`: its **Current task**    line, when it names a story. 2. Else the stories in progress: `bash .claude/scripts/story-facts.s",
+      "**Its facts.** `bash .claude/scripts/story-facts.sh <story-path>` gives the status, type, layer, TR-IDs, ADRs, criteria count, test-evidence status and dependencies. Then read the ",
+      "- **`full`:** the current requirement text of each TR-ID: in   `docs/architecture/tr-registry.yaml`, the lines matching `id: <TR-ID>\\s*$` and the   entry's text below (the anchor k",
+      "**Is the evidence older than its code?** For a retained image, run `bash .claude/scripts/review-receipts.sh check production/qa/evidence/[story-slug]/stamp.txt`. Each `CHANGED:` or",
+      "1. `bash .claude/scripts/md-section.sh set-field <story> Status Complete`, then    `set-field <story> \"Last Updated\" <YYYY-MM-DD> --after Status`. 2. Add at the end of the story, w",
+      "**The next story.** With no sprint plan in `production/sprints/` (always at `workflow: minimal`): Run `bash .claude/scripts/story-status.sh` after the close, so this story's new st",
+      "**The checkpoint**, on every verdict, closed or not. Pipe the block to `bash .claude/scripts/session-state.sh checkpoint`, which replaces the old block:"
+    ]
+  },
+  {
+    "source": ".claude/skills/story-done/references/review-gates.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/skills/story-done/references/sprint-next.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/skills/story-done/references/tech-debt-row.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/skills/story-readiness/CONTRACT.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/skills/story-readiness/SKILL.md",
+    "removed_transport_sections": [
+      "Transport-specific code block: ```\n   bash .claude/scripts/story-facts.sh --lint --granularity <story_granularity> [--sprint | --all | <path> ...]\n   `",
+      "!`bash \"${CLAUDE_SKILL_DIR}/../../hooks/yaml-helper.sh\" resolve_config --keys review_mode,review_gate,automation,workflow,qa.level,gate_level,story_granularity,system_overrides`",
+      "   Each `STORY` row gives a story's status, type, layer, estimate, TR-IDs, ADRs,    acceptance-criteria count, test-evidence line and dependencies. Each `LINT` row    is a rule the"
+    ]
+  },
+  {
+    "source": ".claude/skills/story-readiness/references/qa-lead-gate.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/skills/team-audio/SKILL.md",
+    "removed_transport_sections": [
+      "Phase 0: Resolve Config",
+      "How to Delegate",
+      "File Write Protocol",
+      "If no argument is provided, output usage guidance and exit without spawning any agents: > Usage: `/team-audio [feature or area to design audio for] [--review full|lean|solo]` \u2014 spe",
+      "**Decision Points:** At each step transition, use `AskUserQuestion` to present the user with the subagent's proposals as selectable options. Write the agent's full analysis in conv"
+    ]
+  },
+  {
+    "source": ".claude/skills/team-combat/SKILL.md",
+    "removed_transport_sections": [
+      "Phase 0: Resolve Config",
+      "How to Delegate",
+      "File Write Protocol",
+      "**Decision Points:** At each phase transition, use `AskUserQuestion` to present the user with the subagent's proposals as selectable options. Write the agent's full analysis in con",
+      "`design/` is outside the bounded write exception above, so the game-designer drafts and **you** write the GDD \u2014 the pattern `/team-level` and `/team-narrative` use. At the Phase 1 ",
+      "Use `AskUserQuestion`: - Prompt: \"Architecture sketch complete. Approve to proceed with parallel implementation.\" - Options:   - `[A] Proceed \u2014 spawn implementation agents (gamepla",
+      "The code, VFX and shader work is outside the bounded write exception: each of those agents first returns the files it will create or change, you ask once for the whole set, and the",
+      "**Gate**: Use `AskUserQuestion` to present the integration result and confirm before proceeding to Phase 5."
+    ]
+  },
+  {
+    "source": ".claude/skills/team-level/SKILL.md",
+    "removed_transport_sections": [
+      "Phase 0: Resolve Config",
+      "How to Delegate",
+      "File Write Protocol",
+      "If no argument is provided, output usage guidance and exit without spawning any agents or reading any design files: > Usage: `/team-level [level name or area to design] [--review f",
+      "**Decision Points:** At each step transition, use `AskUserQuestion` to present the user with the subagent's proposals as selectable options. Write the agent's full analysis in conv"
+    ]
+  },
+  {
+    "source": ".claude/skills/team-live-ops/SKILL.md",
+    "removed_transport_sections": [
+      "Phase 0: Resolve Config",
+      "How to Delegate",
+      "File Write Protocol",
+      "**Decision Points:** At each phase transition, use `AskUserQuestion` to present the user with the subagent's proposals as selectable options. Write the agent's full analysis in con",
+      "Present a summary to the user with: - **Content scope**: what is being created - **Economy health check**: does the reward track feel fair and non-predatory? - **Analytics readines",
+      "Ask the user to approve the season plan before delegating to production teams. Issue the COMPLETE verdict only after the user approves and no unresolved ethics violations remain. I",
+      "All documents save to `design/live-ops/` \u2014 **but the orchestrator asks before writing them.** `design/` is NOT one of the three directories the bounded write exception covers (`pro"
+    ]
+  },
+  {
+    "source": ".claude/skills/team-narrative/SKILL.md",
+    "removed_transport_sections": [
+      "Phase 0: Resolve Config",
+      "How to Delegate",
+      "File Write Protocol",
+      "If no argument is provided, output usage guidance and exit without spawning any agents: > Usage: `/team-narrative [narrative content description] [--review full|lean|solo]` \u2014 descr",
+      "**Decision Points:** At each phase transition, use `AskUserQuestion` to present the user with the subagent's proposals as selectable options. Write the agent's full analysis in con",
+      "**Phase gate:** collect all three Phase 2 outputs, then apply the Decision Points rule before starting Phase 3 \u2014 present the lore, dialogue, and visual direction summaries and capt",
+      "Act on the verdict: **APPROVE** \u2192 Phase 5. **CONCERNS** \u2192 show the listed inconsistencies and ask via `AskUserQuestion` whether to revise them (re-spawn the agent that owns each) o",
+      "### Write the finals You hold every draft. List the final documents from the table above, then ask once via `AskUserQuestion` \u2014 \"May I write these [N] narrative documents to `desig"
+    ]
+  },
+  {
+    "source": ".claude/skills/team-polish/SKILL.md",
+    "removed_transport_sections": [
+      "Phase 0: Resolve Config",
+      "How to Delegate",
+      "File Write Protocol",
+      "If no argument is provided, output usage guidance and exit without spawning any agents: > Usage: `/team-polish [feature or area to polish] [--review full|lean|solo]` \u2014 specify the ",
+      "**Decision Points:** At each phase transition, use `AskUserQuestion` to present the user with the subagent's proposals as selectable options. Write the agent's full analysis in con",
+      "Every implementing agent in Phases 2\u20134 first returns the files it will create or change, and you ask once for the whole Phase 2\u20134 set before any is edited (File Write Protocol)."
+    ]
+  },
+  {
+    "source": ".claude/skills/team-qa/SKILL.md",
+    "removed_transport_sections": [
+      "Phase 0: Resolve Config",
+      "How to Delegate",
+      "**Decision Points:** At each phase transition, use `AskUserQuestion` to present the user with the subagent's proposals as selectable options. Write the agent's full analysis in con",
+      "Present the qa-lead's full strategy to the user, then use `AskUserQuestion`:",
+      "Ask: \"May I write the QA plan to `production/qa/qa-plan-[sprint]-[date].md`?\"",
+      "Use `AskUserQuestion` per story group (batched 3-4 at a time):",
+      "Batch stories into groups of 3-4 and use `AskUserQuestion` for each. **Wait for the tester's answer** and record only what they said: a result the tester did not give is never fill",
+      "After each FAIL result: use `AskUserQuestion` to collect the failure description, then spawn `qa-tester` via `Agent` to write a formal bug report in `production/qa/bugs/`, in `/bug",
+      "**After each PASS or PASS WITH NOTES on a Visual/Feel or UI story, record its evidence in `production/qa/evidence/`.** The retained screenshot is the evidence: ask the tester to sa",
+      "Ask: \"May I write this QA sign-off report to `production/qa/qa-signoff-[sprint]-[date].md`?\""
+    ]
+  },
+  {
+    "source": ".claude/skills/team-release/SKILL.md",
+    "removed_transport_sections": [
+      "Phase 0: Resolve Config",
+      "How to Delegate",
+      "File Write Protocol",
+      "**Argument check:** If no version number is provided: 1. Read `production/session-state/active.md` and the most recent file in `production/milestones/` (if they exist) to infer the",
+      "**Decision Points:** At each phase transition, use `AskUserQuestion` to present the user with the subagent's proposals as selectable options. Write the agent's full analysis in con",
+      "**If producer declares NO-GO:** - Surface the decision immediately: \"PRODUCER: NO-GO \u2014 [rationale, e.g., S1 bug found in Phase 3].\" - Use `AskUserQuestion` with options:   - Fix th",
+      "**This phase always requires explicit user approval regardless of `modes.automation` \u2014 including `autonomous` mode.** Production deployment is irreversible and high-stakes; it is N",
+      "Only after explicit approval, delegate to **release-manager** + **devops-engineer**: - Tag the release in version control - Finalize the changelog drafted in Polish (`/changelog`),"
+    ]
+  },
+  {
+    "source": ".claude/skills/team-ui/SKILL.md",
+    "removed_transport_sections": [
+      "Phase 0: Resolve Config",
+      "How to Delegate",
+      "File Write Protocol",
+      "If no argument is provided, output usage guidance and exit without spawning any agents or reading any design files: > Usage: `/team-ui [UI feature description] [--review full|lean|",
+      "**Decision Points:** At each phase transition, use `AskUserQuestion` to present the user with the subagent's proposals as selectable options. Write the agent's full analysis in con",
+      "Then use `AskUserQuestion` with options: - (a) Run `/ux-design patterns` first to establish the pattern library, then continue - (b) Proceed without the pattern library \u2014 ui-progra",
+      "**Gate**: Do not proceed to Phase 2 until the verdict is APPROVED. If the verdict is NEEDS REVISION, the ux-designer must address the flagged issues in the same spec \u2014 it is kept a"
+    ]
+  },
+  {
+    "source": ".claude/skills/tech-debt/SKILL.md",
+    "removed_transport_sections": [
+      "!`bash \"${CLAUDE_SKILL_DIR}/../../hooks/yaml-helper.sh\" resolve_config --keys automation,workflow`",
+      "Every `AskUserQuestion` call follows `.claude/docs/automation-modes.md` (collaborative asks always \u00b7 guided major-only \u00b7 autonomous logs and proceeds; `automation_always_ask` categ",
+      "Ask: \"May I write these findings to `docs/tech-debt-register.md`?\"",
+      "**Run as a subagent?** `lead-programmer` preloads this skill, and a subagent has no `AskUserQuestion`. Return the three questions below (category, effort, impact) in one reply, eac",
+      "Then use `AskUserQuestion` to collect the **category**: - Prompt: \"What category does this tech debt belong to?\" - Options:   - `[A] Architecture Debt \u2014 wrong abstractions, missing",
+      "Then use `AskUserQuestion` to collect the **estimated fix effort**: - Prompt: \"What is the estimated effort to fix this item?\" - Options:   - `[A] S \u2014 Small (under 1 day)`   - `[B]",
+      "Then use `AskUserQuestion` to collect the **impact if left unfixed** \u2014 the register's Impact column, which `/tech-debt prioritize` scores: - Prompt: \"What does this cost if it is n",
+      "Ask: \"May I append this entry to `docs/tech-debt-register.md`?\" (or, on a match, \"May I update the existing entry instead?\")",
+      "Ask: \"May I write the re-prioritized register back to `docs/tech-debt-register.md`?\""
+    ]
+  },
+  {
+    "source": ".claude/skills/test-evidence-review/SKILL.md",
+    "removed_transport_sections": [
+      "Collaborative Protocol",
+      "!`bash \"${CLAUDE_SKILL_DIR}/../../hooks/yaml-helper.sh\" resolve_config --keys automation,workflow,qa.level,testing.strict`",
+      "**Automation mode**: Resolve `modes.automation` (`project.local.yaml` \u2192 `project.yaml` \u2192 default `collaborative`). Every `AskUserQuestion` call and every file write follows `.claud",
+      "For each story with a retained image, run `bash .claude/scripts/review-receipts.sh check production/qa/evidence/[story-slug]/stamp.txt`. List each `CHANGED:` or `GONE:` file as POT",
+      "Ask: \"May I write this test evidence review to `production/qa/evidence-review-[date].md`?\""
+    ]
+  },
+  {
+    "source": ".claude/skills/test-flakiness/SKILL.md",
+    "removed_transport_sections": [
+      "Collaborative Protocol",
+      "!`bash \"${CLAUDE_SKILL_DIR}/../../hooks/yaml-helper.sh\" resolve_config --keys automation`",
+      "**Automation mode**: Resolve `modes.automation` (`project.local.yaml` \u2192 `project.yaml` \u2192 default `collaborative`). Every `AskUserQuestion` call and every file write follows `.claud",
+      "Ask: \"May I update the quarantine section of `tests/regression-suite.md` with the flaky tests found?\"",
+      "Ask (separately): \"May I write a full flakiness report to `production/qa/flakiness-report-[date].md`?\""
+    ]
+  },
+  {
+    "source": ".claude/skills/test-helpers/SKILL.md",
+    "removed_transport_sections": [
+      "Collaborative Protocol",
+      "!`bash \"${CLAUDE_SKILL_DIR}/../../hooks/yaml-helper.sh\" resolve_config --keys automation`",
+      "**Automation mode**: Resolve `modes.automation` (`project.local.yaml` \u2192 `project.yaml` \u2192 default `collaborative`). Every `AskUserQuestion` call and every file write follows `.claud",
+      "Ask: \"May I write these helper files to `[helper root]`?\""
+    ]
+  },
+  {
+    "source": ".claude/skills/test-setup/SKILL.md",
+    "removed_transport_sections": [
+      "Collaborative Protocol",
+      "!`bash \"${CLAUDE_SKILL_DIR}/../../hooks/yaml-helper.sh\" resolve_config --keys automation,workflow,qa.level`",
+      "**Automation mode**: Resolve `modes.automation` (`project.local.yaml` \u2192 `project.yaml` \u2192 default `collaborative`). Every `AskUserQuestion` call and every file write follows `.claud"
+    ]
+  },
+  {
+    "source": ".claude/skills/test-setup/references/1-detect.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/skills/test-setup/references/2-plan.md",
+    "removed_transport_sections": [
+      "Ask: \"May I create these files? I will not overwrite any test files that already exist at these paths.\""
+    ]
+  },
+  {
+    "source": ".claude/skills/test-setup/references/3-directories.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/skills/test-setup/references/4-ci.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/skills/test-setup/references/5-smoke-seed.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/skills/test-setup/references/6-summary.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/skills/ux-design/SKILL.md",
+    "removed_transport_sections": [
+      "Collaborative Protocol",
+      "!`bash \"${CLAUDE_SKILL_DIR}/../../hooks/yaml-helper.sh\" resolve_config --keys automation,workflow,docs.density`",
+      "Every `AskUserQuestion` call follows `.claude/docs/automation-modes.md` (collaborative asks always \u00b7 guided major-only \u00b7 autonomous logs and proceeds; `automation_always_ask` categ",
+      "**If no argument is provided**, do not fail \u2014 ask instead. Use `AskUserQuestion`: - \"What are we designing today?\"   - Options: \"A specific screen or flow (I'll name it)\", \"The gam"
+    ]
+  },
+  {
+    "source": ".claude/skills/ux-design/references/2-gather-context.md",
+    "removed_transport_sections": [
+      "If neither source is configured, ask once: > \"Input methods aren't configured yet. What does this game target?\" > Options: \"Keyboard/Mouse only\", \"Gamepad only\", \"Both (PC + Consol"
+    ]
+  },
+  {
+    "source": ".claude/skills/ux-design/references/3-file-skeleton.md",
+    "removed_transport_sections": [
+      "Ask: \"May I create the skeleton file at `design/ux/[filename].md`?\" \u2014 except in `accessibility` mode, where the path is `design/accessibility-requirements.md` (see the mode table i"
+    ]
+  },
+  {
+    "source": ".claude/skills/ux-design/references/4-authoring.md",
+    "removed_transport_sections": [
+      "1. **Context**: State what this section needs to contain and surface any relevant    constraints from context gathered in Phase 2. 2. **Questions**: Ask what is needed to draft thi"
+    ]
+  },
+  {
+    "source": ".claude/skills/ux-design/references/5-crossref-handoff.md",
+    "removed_transport_sections": [
+      "**2. Pattern library alignment**: Are all interaction patterns used in this spec referenced by name? If a new pattern was invented during this spec session, flag it for addition to",
+      "Then use `AskUserQuestion`: - \"Run `/ux-review [filename]` now, or do something else first?\"   - Options:     - \"Run `/ux-review` now \u2014 validate this spec\"     - \"Design another sc"
+    ]
+  },
+  {
+    "source": ".claude/skills/ux-design/references/sections-hud.md",
+    "removed_transport_sections": [
+      "Use `AskUserQuestion` to step through items in groups of 3-4, not all at once. This is the most consequential design decision in the HUD \u2014 do not rush it."
+    ]
+  },
+  {
+    "source": ".claude/skills/ux-design/references/sections-patterns.md",
+    "removed_transport_sections": [
+      "Work through patterns in groups. Use `AskUserQuestion`: - \"How do you want to work through these patterns?\" - Options: \"Draft the first batch from existing specs (faster)\", \"Define"
+    ]
+  },
+  {
+    "source": ".claude/skills/ux-design/references/sections-ux-spec.md",
+    "removed_transport_sections": [
+      "**Sub-section 2 \u2014 Layout Zones**: - Based on the information hierarchy, propose rough screen zones (header, content   area, action bar, sidebar, etc.). - Offer 2-3 zone arrangement",
+      "**Sub-section 4 \u2014 ASCII Wireframe**: - Offer to generate an ASCII wireframe based on the zone layout and component list. - Use `AskUserQuestion`: \"Want an ASCII wireframe as part o",
+      "Use `AskUserQuestion` to confirm: - \"Do these acceptance criteria cover what would make this screen 'done' for your QA process?\" - Options: \"Yes \u2014 these are solid\", \"Add one more c"
+    ]
+  },
+  {
+    "source": ".claude/skills/ux-review/SKILL.md",
+    "removed_transport_sections": [
+      "Phase 5: Collaborative Protocol",
+      "!`bash \"${CLAUDE_SKILL_DIR}/../../hooks/yaml-helper.sh\" resolve_config --keys workflow`"
+    ]
+  },
+  {
+    "source": ".claude/skills/vertical-slice/SKILL.md",
+    "removed_transport_sections": [
+      "!`bash \"${CLAUDE_SKILL_DIR}/../../hooks/yaml-helper.sh\" resolve_config --keys review_mode,automation,workflow`",
+      "Every `AskUserQuestion` call follows `.claude/docs/automation-modes.md` (collaborative asks always \u00b7 guided major-only \u00b7 autonomous logs and proceeds; `automation_always_ask` categ",
+      "Ask the user to confirm scope before building. Name the checkpoint file in that confirmation: \"May I record this plan in `production/session-state/active.md`?\"",
+      "Ask: \"May I create the vertical slice directory at `prototypes/[concept-name]-vertical-slice/` and begin implementation?\"",
+      "Ask: \"May I write this report to `prototypes/[concept-name]-vertical-slice/REPORT.md` and add its row to `prototypes/index.md`?\"",
+      "- **APPROVE** \u2192 the recommendation stands. - **CONCERNS** \u2192 show the concerns alongside the recommendation, then use   `AskUserQuestion`: `Revise the recommendation` / `Accept with",
+      "When the director returned CONCERNS, REJECT or NOT ASSESSED, ask \"May I update `prototypes/[concept-name]-vertical-slice/REPORT.md` and its `prototypes/index.md` row?\", then record",
+      "Ask: \"May I write this to `prototypes/[concept-name]-vertical-slice/PIVOT-NOTE.md`?\"",
+      "**Document the kill in `prototypes/GRAVEYARD.md`** (create if it doesn't exist). Ask: \"May I append this to `prototypes/GRAVEYARD.md`?\" If yes, add one entry:"
+    ]
+  },
+  {
+    "source": ".claude/docs/CLAUDE-local-template.md",
+    "removed_transport_sections": [
+      "Transport-specific code block: ```markdown\n# Personal Preferences\n\n## Model Preferences\n- Prefer Opus for complex design tasks\n- Use Haiku for quick lo"
+    ]
+  },
+  {
+    "source": ".claude/docs/agent-roster.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/docs/agent-teams.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/docs/automation-modes.md",
+    "removed_transport_sections": [
+      "Transport-specific code block: ```\nAt each decision point in this skill:\n\n1. Classify the decision: major or minor (see \u00a7Major vs Minor above).\n2. Chec",
+      "This document defines the standard `modes.automation` pattern for every skill that uses `AskUserQuestion` or writes files. Skills reference this document instead of embedding the f",
+      "**Scope**: 68 skills across authoring, review, team orchestration, implementation, and utility categories. Any skill that gates a decision through `AskUserQuestion` or writes files",
+      "In any skill, add a single resolution step at startup and reference the mode-aware AskUserQuestion pattern below at each gated site.",
+      "**At each AskUserQuestion site**, follow the pattern table in \u00a7Universal Rules below. The skill author labels each decision as **major** or **minor** (per the classification matrix",
+      "| Mode | Speed | Control | What changes | |------|-------|---------|--------------| | `collaborative` | Slowest | Full \u2014 every decision is the user's | Default. Q\u2192O\u2192D\u2192Draft\u2192Approva",
+      "- `AskUserQuestion` called for every multi-option decision - 2\u20134 options presented with pros/cons for every design choice - Full draft shown and approved before every file write - ",
+      "- `AskUserQuestion` called for **major decisions only** (see classification below) - Minor decisions: AI states recommendation inline and proceeds \u2014 e.g.   > *\"Going with a static ",
+      "- No `AskUserQuestion` calls **except** for categories listed in `modes.automation_always_ask` - No draft review - No \"May I write?\" prompts \u2014 writes directly - Picks the recommend",
+      "### Major \u2014 always use AskUserQuestion in guided mode",
+      "Even in `autonomous` mode, certain decision categories ALWAYS trigger `AskUserQuestion`. The configured list lives at `modes.automation_always_ask` in `project.yaml`.",
+      "| Skill | Why always collaborative | |-------|--------------------------| | `hotfix` | Emergency decisions \u2014 user must approve scope and risk before any action | | `gate-check` | R",
+      "When `autonomous` mode skips an `AskUserQuestion`, the skill calls `log_decision` to write a structured entry. Format per entry:",
+      "- **Log every decision that would have shown an `AskUserQuestion` widget** \u2014   including option/framing choices, not only final approvals. The   framing/options decisions (which ap",
+      "## The Pattern Skills Apply at Each AskUserQuestion Site"
+    ]
+  },
+  {
+    "source": ".claude/docs/code-root-resolution.md",
+    "removed_transport_sections": [
+      "The hooks already implement exactly this as `resolve_code_root()` in `.claude/hooks/yaml-helper.sh`. Skills must match its semantics so that a hook and a skill never disagree about"
+    ]
+  },
+  {
+    "source": ".claude/docs/coding-standards.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/docs/config-resolution.md",
+    "removed_transport_sections": [
+      "Transport-specific code block: ````markdown\n!`bash \"${CLAUDE_SKILL_DIR}/../../hooks/yaml-helper.sh\" resolve_config --keys a,b`\n```",
+      "Transport-specific code block: ````yaml\nallowed-tools: Read, \u2026, Bash(bash \"*/.claude/skills/<skill-name>/../../hooks/yaml-helper.sh\" resolve_config *)\n",
+      "`` !`cmd` `` in the skill body is the documented mechanism. Frontmatter `context:` accepts only `context: fork` \u2014 it does **not** run shell. A `context: |` block containing `!` com",
+      "| Bootstrap form | Repo root | Subdirectory | Bash-less agent preloading it | |---|---|---|---| | `source \"${CLAUDE_PROJECT_DIR:-.}/\u2026\" && resolve_config` | aborts | aborts | fails ",
+      "- **No `${VAR:-x}` expansion.** It fails as \"Contains expansion\", and no grant   can approve it. `${CLAUDE_SKILL_DIR}` and `${CLAUDE_PROJECT_DIR}` are fine: Claude   Code substitut",
+      "Because `rigor` itself defaults to `minimal`, an unconfigured project resolves these six to the lean row. That default was `standard`; it changed because the heavier tier costs mor",
+      "| Condition | Behavior | |---|---| | `project.yaml` absent | legacy \u2192 defaults; `notes: project.yaml absent` | | `project.yaml` **empty** | defaults; `notes: project.yaml is EMPTY`"
+    ]
+  },
+  {
+    "source": ".claude/docs/context-management.md",
+    "removed_transport_sections": [
+      "Transport-specific code block: ```bash\nbash .claude/scripts/rotate-session-state.sh            # --dry-run to preview\n```",
+      "1. Ask to create the file (\"May I create [path] with the section skeleton?\"), then    create it with every section header and empty bodies 2. Discuss and draft one section at a tim",
+      "## Deterministic Helpers \u2014 `.claude/scripts/`",
+      "| Directory | Purpose | Invoked by | |---|---|---| | `.claude/hooks/` | Event-driven \u2014 wired into `settings.json` and fired by Claude Code | the harness | | `.claude/scripts/` | Ma",
+      "1. **Grant it the way `.claude/docs/config-resolution.md` shows.** `allowed-tools`    pre-approves commands; it does not restrict them \u2014 a skill without the grant    still runs the"
+    ]
+  },
+  {
+    "source": ".claude/docs/coordination-rules.md",
+    "removed_transport_sections": [
+      "**Key point:** whether a skill's `model:` is used depends on how the skill starts. Typed as `/skill-name`: yes, except a `haiku` pin in auto mode. Started by Claude through the Ski"
+    ]
+  },
+  {
+    "source": ".claude/docs/director-gates/ad-art-bible.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/docs/director-gates/ad-concept-visual.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/docs/director-gates/ad-phase-gate.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/docs/director-gates/ad-visual.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/docs/director-gates/cd-gdd-align.md",
+    "removed_transport_sections": [
+      "Agent: `creative-director` | Model tier: Opus | Domain: Vision, pillars, player experience"
+    ]
+  },
+  {
+    "source": ".claude/docs/director-gates/cd-narrative.md",
+    "removed_transport_sections": [
+      "Agent: `creative-director` | Model tier: Opus | Domain: Vision, pillars, player experience"
+    ]
+  },
+  {
+    "source": ".claude/docs/director-gates/cd-phase-gate.md",
+    "removed_transport_sections": [
+      "Agent: `creative-director` | Model tier: Opus | Domain: Vision, pillars, player experience"
+    ]
+  },
+  {
+    "source": ".claude/docs/director-gates/cd-pillars.md",
+    "removed_transport_sections": [
+      "Agent: `creative-director` | Model tier: Opus | Domain: Vision, pillars, player experience"
+    ]
+  },
+  {
+    "source": ".claude/docs/director-gates/cd-playtest.md",
+    "removed_transport_sections": [
+      "Agent: `creative-director` | Model tier: Opus | Domain: Vision, pillars, player experience"
+    ]
+  },
+  {
+    "source": ".claude/docs/director-gates/cd-systems.md",
+    "removed_transport_sections": [
+      "Agent: `creative-director` | Model tier: Opus | Domain: Vision, pillars, player experience"
+    ]
+  },
+  {
+    "source": ".claude/docs/director-gates/lp-code-review.md",
+    "removed_transport_sections": [
+      "Agent: `lead-programmer` | Model tier: Sonnet"
+    ]
+  },
+  {
+    "source": ".claude/docs/director-gates/lp-feasibility.md",
+    "removed_transport_sections": [
+      "Agent: `lead-programmer` | Model tier: Sonnet (Tier 2 lead \u2014 invoked when a domain specialist's feasibility sign-off is needed)"
+    ]
+  },
+  {
+    "source": ".claude/docs/director-gates/nd-consistency.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/docs/director-gates/pr-epic.md",
+    "removed_transport_sections": [
+      "Agent: `producer` | Model tier: Opus | Domain: Scope, timeline, dependencies, production risk"
+    ]
+  },
+  {
+    "source": ".claude/docs/director-gates/pr-milestone.md",
+    "removed_transport_sections": [
+      "Agent: `producer` | Model tier: Opus | Domain: Scope, timeline, dependencies, production risk"
+    ]
+  },
+  {
+    "source": ".claude/docs/director-gates/pr-phase-gate.md",
+    "removed_transport_sections": [
+      "Agent: `producer` | Model tier: Opus | Domain: Scope, timeline, dependencies, production risk"
+    ]
+  },
+  {
+    "source": ".claude/docs/director-gates/pr-scope.md",
+    "removed_transport_sections": [
+      "Agent: `producer` | Model tier: Opus | Domain: Scope, timeline, dependencies, production risk"
+    ]
+  },
+  {
+    "source": ".claude/docs/director-gates/pr-sprint.md",
+    "removed_transport_sections": [
+      "Agent: `producer` | Model tier: Opus | Domain: Scope, timeline, dependencies, production risk"
+    ]
+  },
+  {
+    "source": ".claude/docs/director-gates/ql-story-ready.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/docs/director-gates/ql-test-coverage.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/docs/director-gates/td-adr.md",
+    "removed_transport_sections": [
+      "Agent: `technical-director` | Model tier: Opus | Domain: Architecture, engine risk, performance"
+    ]
+  },
+  {
+    "source": ".claude/docs/director-gates/td-architecture.md",
+    "removed_transport_sections": [
+      "Agent: `technical-director` | Model tier: Opus | Domain: Architecture, engine risk, performance"
+    ]
+  },
+  {
+    "source": ".claude/docs/director-gates/td-change-impact.md",
+    "removed_transport_sections": [
+      "Agent: `technical-director` | Model tier: Opus | Domain: Architecture, engine risk, performance"
+    ]
+  },
+  {
+    "source": ".claude/docs/director-gates/td-engine-risk.md",
+    "removed_transport_sections": [
+      "Agent: `technical-director` | Model tier: Opus | Domain: Architecture, engine risk, performance"
+    ]
+  },
+  {
+    "source": ".claude/docs/director-gates/td-feasibility.md",
+    "removed_transport_sections": [
+      "Agent: `technical-director` | Model tier: Opus | Domain: Architecture, engine risk, performance"
+    ]
+  },
+  {
+    "source": ".claude/docs/director-gates/td-manifest.md",
+    "removed_transport_sections": [
+      "Agent: `technical-director` | Model tier: Opus | Domain: Architecture, engine risk, performance"
+    ]
+  },
+  {
+    "source": ".claude/docs/director-gates/td-phase-gate.md",
+    "removed_transport_sections": [
+      "Agent: `technical-director` | Model tier: Opus | Domain: Architecture, engine risk, performance"
+    ]
+  },
+  {
+    "source": ".claude/docs/director-gates/td-system-boundary.md",
+    "removed_transport_sections": [
+      "Agent: `technical-director` | Model tier: Opus | Domain: Architecture, engine risk, performance"
+    ]
+  },
+  {
+    "source": ".claude/docs/director-gates.md",
+    "removed_transport_sections": [
+      "The value is already resolved \u2014 skills call `` !`bash \"${CLAUDE_SKILL_DIR}/../../hooks/yaml-helper.sh\" resolve_config --keys review_mode` `` (with the matching `allowed-tools` gran",
+      "| Verdict | Meaning | Default action | |---------|---------|----------------| | **APPROVE / READY** | No issues. Proceed. | Continue the workflow | | **CONCERNS [list]** | Issues p"
+    ]
+  },
+  {
+    "source": ".claude/docs/directory-structure.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/docs/effects-map.md",
+    "removed_transport_sections": [
+      "- **gate-check** is the only skill where `full` and `lean` behave identically \u2014   phase gates always run. Only `solo` skips them. This is intentional: phase   gates are the minimum",
+      "**Controls:** How much process the project carries overall \u2014 the single question `/start` asks that sets the six knobs below **Values:** `minimal` | `standard` | `full` **Default:*",
+      "**Director panel width** (`/gate-check` Section 4b) is workflow's second effect here. Directors are Opus-tier, so the panel is sized to the project rather than fixed at four:",
+      "**Controls:** Whether skills ask for decisions and approval before acting, or recommend and proceed \u2014 the tradeoff between user control and speed   **Values:** `collaborative` | `g",
+      "| Value | Speed | Control | What changes | |-------|-------|---------|--------------| | `collaborative` | Slowest | Full \u2014 every decision is the user's | Current behavior. Q\u2192O\u2192D\u2192Dr",
+      "- `AskUserQuestion` called for every multi-option decision - 2\u20134 options presented with pros/cons for every design choice - Full draft shown and approved before every file write - ",
+      "- `AskUserQuestion` called for **major decisions only** (see classification below) - Minor decisions: AI states recommendation inline and proceeds \u2014 e.g.   *\"Going with a static ut",
+      "- No `AskUserQuestion` calls **except** for categories listed in `automation_always_ask` - No draft review - No \"May I write?\" prompts \u2014 writes directly - Picks the recommended opt",
+      "**Major \u2014 always use AskUserQuestion in guided mode:**",
+      "| Skill | Why always collaborative | |-------|--------------------------| | **hotfix** | Emergency decisions \u2014 user must approve scope and risk before any action | | **gate-check**",
+      "**Controls:** Decision categories that ALWAYS trigger AskUserQuestion regardless of automation mode **Values:** list of category names **Default:** `[scope_changes, file_deletions,",
+      "> **Legacy fallback + dual-write.** Stage is read from `project.stage` in > `project.yaml` first, then legacy `production/stage.txt`, then artifact > auto-detection. When `/gate-ch",
+      "| Skill | How `commands` is used | |-------|------------------------| | **smoke-check** | Runs `commands.test`, or the engine's default when it is unset; on Unreal it builds the ed",
+      "| Skill | Output file | Skeleton written when | |-------|-------------|----------------------| | **design-system** | `design/gdd/[system].md` | Before Phase 1 (section discussion) ",
+      "**Controls:** Whether a whole-file Read of a large design doc is refused   **Values:** `on` | `off`; `true` and `false` also work   **Default:** `on`   **Set by:** `/settings`   **",
+      "**Controls:** The size over which `features.read_guard` refuses a whole-file read   **Values:** a whole number of KB (1 KB = 1,024 bytes)   **Default:** `40`   **Set by:** `/settin",
+      "Legacy files are deleted only when the user runs `.claude/scripts/migrate-v1-config.sh --finalize` (driven by `/adopt`, which detects a v1.0 project automatically at Phase 2g). The"
+    ]
+  },
+  {
+    "source": ".claude/docs/error-recovery-protocol.md",
+    "removed_transport_sections": [
+      "1. **Surface immediately** \u2014 report \"[AgentName]: BLOCKED \u2014 [reason]\" to the user    before continuing to dependent phases. The reason names what is missing and    where it was exp"
+    ]
+  },
+  {
+    "source": ".claude/docs/hooks-reference/hook-input-schemas.md",
+    "removed_transport_sections": [
+      "Transport-specific code block: ```bash\n. .claude/hooks/yaml-helper.sh\nhook_warn PostToolUse \"Asset names must be lowercase: $FILE_PATH\"\nexit 0\n```",
+      "CCGS hooks use `hook_warn` from `.claude/hooks/yaml-helper.sh`, which builds this object and escapes the message without needing `jq`:"
+    ]
+  },
+  {
+    "source": ".claude/docs/hooks-reference/post-merge-asset-validation.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/docs/hooks-reference/post-sprint-retrospective.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/docs/hooks-reference/pre-commit-code-quality.md",
+    "removed_transport_sections": [
+      "Transport-specific code block: ```bash\n#!/bin/bash\n# Pre-commit hook: Code quality checks\n# Adapt the specific checks to your language and tooling\n\n# T"
+    ]
+  },
+  {
+    "source": ".claude/docs/hooks-reference/pre-commit-design-check.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/docs/hooks-reference/pre-push-test-gate.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/docs/hooks-reference.md",
+    "removed_transport_sections": [
+      "Hooks are configured in `.claude/settings.json` and fire automatically:",
+      "| Hook | Event | Trigger | Action | | ---- | ----- | ------- | ------ | | `validate-commit.sh` | PreToolUse (Bash, PowerShell) | `git commit` commands | Validates design doc sectio",
+      "| Event | Why not | | ---- | ---- | | `UserPromptSubmit` | Would re-inject session state on **every prompt**. `.claude/docs/config-resolution.md` already rejects the weaker version"
+    ]
+  },
+  {
+    "source": ".claude/docs/model-tiers.md",
+    "removed_transport_sections": [
+      "> ### When a skill's `model:` is used \u2014 skills only > > A skill's `model:` overrides the session model for the rest of the turn the > skill runs in, and your next prompt returns to",
+      "| Tier | `model:` | When to use | |------|----------|-------------| | **Haiku** | `haiku` | Read-only status checks, formatting, simple lookups \u2014 no creative judgment needed | | **",
+      "Skills with `model: haiku` (5): `/help`, `/onboard`, `/project-stage-detect`, `/scope-check`, `/sprint-status`",
+      "> `/patch-notes` and `/changelog` are `sonnet`, not `haiku`: both produce > **player-facing** copy and need judgement the cheapest tier is defined as not > doing. Full reasoning in",
+      "Skills with `model: opus` (3): `/architecture-review`, `/gate-check`, `/review-all-gdds`",
+      "All other skills are Sonnet. When creating a new skill, assign Haiku if it only reads and formats; assign Opus if it must synthesize 5+ documents with high-stakes output; otherwise",
+      "- **opus (3):** `creative-director`, `producer`, `technical-director`. Under an   Opus session an `opus` pin runs on the session's exact model, `[1m]` included,   so it never gets ",
+      "A pin gets that model's context window, whatever the session runs. On the Anthropic API `sonnet` currently resolves to Sonnet 5, which always has a 1M window, so a `sonnet` pin is ",
+      "It applies to **every** pin, the three `opus` directors included: under a Sonnet session they run on Sonnet too. `CLAUDE_CODE_SUBAGENT_MODEL` alone does not do it: it applies only "
+    ]
+  },
+  {
+    "source": ".claude/docs/quick-start.md",
+    "removed_transport_sections": [
+      "- **Tier 1 \u2014 Directors** who make high-level decisions (they run on Opus)   - `creative-director` -- vision and creative conflict resolution   - `technical-director` -- architectur"
+    ]
+  },
+  {
+    "source": ".claude/docs/rules-reference.md",
+    "removed_transport_sections": [
+      "1. **Reading, not editing.** A rule scoped to a gameplay folder reaches the    model when a file there is opened. An agent that writes a brand-new file in that    directory without",
+      "To see which rules actually load, and why, wire the `InstructionsLoaded` hook \u2014 `.claude/hooks/log-instructions.sh` records every instruction file and its load reason (`session_sta"
+    ]
+  },
+  {
+    "source": ".claude/docs/run-and-observe.md",
+    "removed_transport_sections": [
+      "1. **Launch windowed** at a fixed resolution \u2014 `1280x720` unless the project    says otherwise \u2014 using `commands.run` from `project.yaml`. Never the    headless / batch / null-RHI "
+    ]
+  },
+  {
+    "source": ".claude/docs/settings-guidance.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/docs/settings-local-template.md",
+    "removed_transport_sections": [
+      "Transport-specific code block: ```json\n{\n  \"hooks\": {\n    \"Stop\": [\n      {\n        \"matcher\": \"\",\n        \"hooks\": [\n          {\n            \"type\": \"",
+      "Create `.claude/settings.local.json` for personal overrides that should NOT be committed to version control. The shipped `.gitignore` already ignores it.",
+      "Put the `*` after the subcommand. `Bash(git commit *)` allows only commits; `Bash(git *)` would allow every git command, `git push` included. Read-only commands such as `git status",
+      "Claude Code has several permission modes. The shipped `.claude/settings.json` starts terminal sessions in `default`; to start in another, set `permissions.defaultMode` here. \"One s"
+    ]
+  },
+  {
+    "source": ".claude/docs/setup-requirements.md",
+    "removed_transport_sections": [
+      "### Windows - Git for Windows includes **Git Bash**, which provides the `bash` command   used by all hooks in `settings.json` - If Claude Code can't find Git Bash, set `CLAUDE_CODE",
+      "CCGS deliberately ships **no** values for the settings below. Each one's best value depends on your machine, your Claude plan and how you work, so a value committed here would be a",
+      "`permissions.defaultMode` is set to `default` in `.claude/settings.json`, on purpose. A terminal session started **at the project root** then starts in Claude Code's ask-first mode",
+      "- **Starting in a subfolder** such as `design/` or the code root (`src/`,   `Assets/` or `Source/`, depending on the engine). Claude Code loads   `.claude/settings.json` only from ",
+      "In any mode that accepts edits without asking, the framework's \"May I write?\" is an instruction to the model, not a stop.",
+      "To start terminal sessions in a different mode, set `permissions.defaultMode` in `.claude/settings.local.json`, which takes precedence. Terminal sessions accept any mode from it ex"
+    ]
+  },
+  {
+    "source": ".claude/docs/skills-reference.md",
+    "removed_transport_sections": [
+      "CCGS does **not** turn the bundled skills off. `disableBundledSkills` would remove all of them, including `/debug`, `/security-review` and `/simplify`, which are worth keeping. If "
+    ]
+  },
+  {
+    "source": ".claude/docs/technical-preferences.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/docs/templates/SKILL-CONTRACT-TEMPLATE.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/docs/templates/accessibility-requirements.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/docs/templates/adoption-plan.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/docs/templates/adoption-summary.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/docs/templates/architecture-decision-record.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/docs/templates/architecture-doc-from-code.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/docs/templates/architecture-traceability.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/docs/templates/art-bible.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/docs/templates/bug-closure-record.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/docs/templates/bug-report.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/docs/templates/certification-console.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/docs/templates/certification-itch.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/docs/templates/certification-none.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/docs/templates/certification-steam.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/docs/templates/certification-unknown.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/docs/templates/changelog-internal.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/docs/templates/changelog-template.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/docs/templates/concept-doc-from-prototype.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/docs/templates/design-doc-from-implementation.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/docs/templates/difficulty-curve.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/docs/templates/economy-model.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/docs/templates/faction-design.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/docs/templates/game-brief.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/docs/templates/game-concept.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/docs/templates/game-design-document.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/docs/templates/game-pillars.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/docs/templates/guidance/accessibility-requirements-guide.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/docs/templates/guidance/game-design-document-guide.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/docs/templates/guidance/hud-design-guide.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/docs/templates/guidance/interaction-pattern-library-guide-game-specific.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/docs/templates/guidance/interaction-pattern-library-guide-navigation-feedback.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/docs/templates/guidance/interaction-pattern-library-guide-standard-controls.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/docs/templates/guidance/interaction-pattern-library-guide.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/docs/templates/guidance/ux-spec-guide.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/docs/templates/help-escalation.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/docs/templates/help-where-you-are-minimal.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/docs/templates/help-where-you-are.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/docs/templates/hud-design.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/docs/templates/incident-response.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/docs/templates/interaction-pattern-library.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/docs/templates/launch-checklist.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/docs/templates/level-design-document.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/docs/templates/milestone-definition.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/docs/templates/narrative-character-sheet.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/docs/templates/patch-notes-brief.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/docs/templates/patch-notes-commentary.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/docs/templates/pitch-document.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/docs/templates/player-journey.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/docs/templates/post-mortem.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/docs/templates/project-stage-report.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/docs/templates/prototype-report.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/docs/templates/quick-design-change.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/docs/templates/quick-design-new-system.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/docs/templates/quick-design-tuning.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/docs/templates/release-checklist-template.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/docs/templates/release-notes.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/docs/templates/release-platform-requirements.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/docs/templates/risk-register-entry.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/docs/templates/session-state.md",
+    "removed_transport_sections": [
+      "  ROTATION. When the narrative below grows past ~200 lines, move it to   `production/session-logs/` and start it fresh:       bash .claude/scripts/rotate-session-state.sh   Nothing"
+    ]
+  },
+  {
+    "source": ".claude/docs/templates/soak-test-protocol.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/docs/templates/sound-bible.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/docs/templates/sprint-plan.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/docs/templates/start-paths.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/docs/templates/story.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/docs/templates/systems-index.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/docs/templates/technical-design-document.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/docs/templates/test-evidence.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/docs/templates/test-plan.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/docs/templates/ux-spec.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/docs/templates/vertical-slice-report.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/docs/workflow-modes.md",
+    "removed_transport_sections": [
+      "**Default**: `minimal` (the rationale block above `_yaml_helper_defaults` in `.claude/hooks/yaml-helper.sh` carries the reasoning and the ordering constraint). **Set by**: `/start`"
+    ]
+  },
+  {
+    "source": ".claude/rules/agent-memory.md",
+    "removed_transport_sections": [
+      "**Agent memory is one of three writes that need no \"May I write?\"** The other two are named in `CLAUDE.md`:",
+      "- **Appends to `production/session-state/active.md`** \u2014 the session checkpoint   the hooks and the next session rely on. An append, never a rewrite of what is   already there. - **"
+    ]
+  },
+  {
+    "source": ".claude/rules/ai-code.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/rules/data-files.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/rules/design-docs.md",
+    "removed_transport_sections": [
+      "- The 8 GDD sections are: Overview, Player Fantasy, Detailed Rules, Formulas, Edge Cases, Dependencies, Tuning Knobs, Acceptance Criteria - **How many are required depends on `mode"
+    ]
+  },
+  {
+    "source": ".claude/rules/engine-code.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/rules/gameplay-code.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/rules/narrative.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/rules/network-code.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/rules/prototype-code.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/rules/scene-files.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/rules/shader-code.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/rules/skill-authoring.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/rules/test-standards.md",
+    "removed_transport_sections": []
+  },
+  {
+    "source": ".claude/rules/ui-code.md",
+    "removed_transport_sections": []
+  }
+]
