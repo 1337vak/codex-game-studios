@@ -1,0 +1,4 @@
+interface:
+  display_name: "Game Studio"
+  short_description: "Game production, art, animation, and practical QA"
+  default_prompt: "Use $game-studio to continue the game work with focused roles and inspect the actual result."

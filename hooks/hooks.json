@@ -1,0 +1,17 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit|apply_patch",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"${PLUGIN_ROOT}/hooks/validate_assets.py\"",
+            "timeout": 10,
+            "statusMessage": "Checking changed JSON asset data"
+          }
+        ]
+      }
+    ]
+  }
+}
