@@ -1,6 +1,6 @@
 {
   "name": "game-studio",
-  "version": "0.2.0+75444b45bc59",
+  "version": "0.2.0+b207caaeff71",
   "description": "Game design, engine implementation, art, audio, and evidence-based QA adapted from Claude Code Game Studios.",
   "skills": "./skills/",
   "interface": {

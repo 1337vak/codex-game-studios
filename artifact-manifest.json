@@ -4,7 +4,7 @@
     "executable": false
   },
   ".codex-plugin/plugin.json": {
-    "sha256": "d7f709ec0302680007d942c3cb6fbece58c3a25d96bb3f288b64c58851778bc8",
+    "sha256": "5b552768ff2159b03d2b13d2f4ef43a507438a6db9e99499033c08855e6cbfa7",
     "executable": false
   },
   "COMPATIBILITY.md": {
@@ -28,7 +28,7 @@
     "executable": false
   },
   "provenance.json": {
-    "sha256": "75381bdf1f21000e77c776d8f9c6c9a5b9b113e827e77f993c0c8b7289c0cbf4",
+    "sha256": "d7cc00901984466946055d3be6f2cfc1f0647a682eba1a4827fe80bcec22e9f0",
     "executable": false
   },
   "shared/docs/CLAUDE-local-template.md": {
