@@ -45,13 +45,14 @@ def inspect(project):
     return {'project': str(root), 'engines': engines, 'project_instructions': str(root / 'AGENTS.md') if (root / 'AGENTS.md').is_file() else None, 'note': 'Project metadata is evidence of the project pin; installed engine versions require a separate check.'}
 
 
-def audit(root):
+def audit(root, *, paths=None):
     root = Path(root).expanduser().resolve(strict=True)
     if not root.is_dir():
         raise ValueError('Asset root must be a directory')
     files = []
     errors = []
-    for p in sorted(root.rglob('*')):
+    candidates = root.rglob('*') if paths is None else paths
+    for p in sorted(candidates):
         if not p.is_file() or p.suffix.lower() not in {'.png', '.wav', '.json'}:
             continue
         record = {'path': str(p.relative_to(root)), 'bytes': p.stat().st_size, 'format': p.suffix[1:].lower()}
@@ -73,7 +74,7 @@ def audit(root):
                 with wave.open(str(p)) as w:
                     record.update(channels=w.getnchannels(), sample_rate=w.getframerate(), sample_width_bytes=w.getsampwidth(), frames=w.getnframes(), duration=w.getnframes()/w.getframerate())
             elif p.suffix.lower() == '.json':
-                content = json.loads(p.read_text())
+                content = json.loads(p.read_text(encoding='utf-8-sig'))
                 record['json_type'] = type(content).__name__
                 record['schema_validation'] = 'Not assessed; no schema supplied'
         except (ValueError, OSError, EOFError, struct.error, wave.Error) as exc:

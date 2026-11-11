@@ -1,3 +1,5 @@
 /build/
+/dist/
+/.port-cache/
 __pycache__/
 *.pyc

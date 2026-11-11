@@ -8,7 +8,8 @@ description: Coordinate game design, engine implementation, art, animation, audi
 Use the user's existing game, engine, approved art direction, and authorization.
 Read [compatibility](references/compatibility.md) once before using the port.
 `<skill-root>` means this folder; `<project-root>` means the actual game repository,
-which can be different from the toolkit repository.
+which can be different from the toolkit repository. `<plugin-root>` is two
+directories above this skill folder.
 
 Choose the smallest useful workflow and role set. Search `catalog.json`, or run:
 
@@ -18,7 +19,10 @@ python3 <skill-root>/scripts/studio.py catalog polish
 
 Read only the returned workflow and role references needed for the task. The
 catalog preserves 74 workflows and 49 role briefs from the MIT-licensed upstream
-studio. They are on-demand references, not persistent agents or separate models.
+studio. Workflows are native, explicitly invoked skills (for example `$game-studio:prototype`
+or `$game-studio:asset-audit`); the catalog resolves their installed locations. Role briefs
+are references used with the host's native delegation tools, not registered
+agents or separate models.
 
 For current work:
 
@@ -43,4 +47,5 @@ Do not turn an art or animation request into documentation-only work. Preserve
 user approvals across phases; do not import upstream per-file approval prompts.
 Do not claim a hook, test, render, playback, or specialist pass ran unless it did.
 
-Attribution and the pinned upstream commit are in `provenance.json` and `LICENSE`.
+Attribution, the upstream pin, conversion decisions, and build provenance are in
+`<plugin-root>/README.md`, `COMPATIBILITY.md`, `provenance.json`, and `LICENSE`.

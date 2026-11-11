@@ -1,0 +1,424 @@
+{
+  "schema_version": 1,
+  "name": "game-studio",
+  "display_name": "Game Studio",
+  "description": "Game design, engine implementation, art, audio, and evidence-based QA adapted from Claude Code Game Studios.",
+  "version": "0.2.0",
+  "source": {
+    "repository": "https://github.com/Donchitos/Claude-Code-Game-Studios.git",
+    "commit": "05ad7c8a5b8aa2aa86bbd3439ae7cf7295cac418",
+    "directory": ".claude",
+    "license": "MIT",
+    "attribution": "Copyright (c) 2026 Donchitos"
+  },
+  "converter": {
+    "repository": "https://github.com/EveryInc/compound-engineering-plugin.git",
+    "commit": "4ba48871919650d43a412e3faf0374272fdc209d"
+  },
+  "tool": {
+    "repository": "https://github.com/1337vak/claude-to-codex-plugin-port.git",
+    "commit": "6686d4be2e31cf8dee14377dedfd2e24d4a3ebd3"
+  },
+  "role_skill": "game-studio",
+  "explicit_skills": [
+    "*"
+  ],
+  "skill_preamble": "Codex adaptation: `<plugin-root>` is two directories above this skill. Read `<plugin-root>/skills/game-studio/references/compatibility.md` before applying source procedures. Use the current host's tools and existing user authorization. Source per-file prompts do not reset that authorization. Source shell preprocessing is not executed: resolve needed project configuration explicitly. Shared source scripts and hooks are reference-only until separately reviewed; use the authored game-studio helper for supported asset observations. Preserve domain decision options and report missing evidence as NOT ASSESSED.",
+  "resources": [
+    {
+      "from": "docs",
+      "to": "shared/docs"
+    },
+    {
+      "from": "rules",
+      "to": "shared/rules"
+    },
+    {
+      "from": "scripts",
+      "to": "shared/scripts"
+    },
+    {
+      "from": "hooks",
+      "to": "shared/source-hooks"
+    },
+    {
+      "from": "settings.json",
+      "to": "shared/source-settings.json"
+    },
+    {
+      "from": "statusline.sh",
+      "to": "shared/statusline.sh"
+    }
+  ],
+  "patches": [
+    {
+      "glob": "skills/*/SKILL.md",
+      "old": "\nmodel: ",
+      "new": "\n# Source model: ",
+      "count": 74
+    },
+    {
+      "glob": "skills/*/SKILL.md",
+      "old": "\nallowed-tools: ",
+      "new": "\n# Source allowed-tools (not enforced): ",
+      "count": 74
+    },
+    {
+      "glob": "skills/*/SKILL.md",
+      "old": "\nuser-invocable: ",
+      "new": "\n# Source user-invocable: ",
+      "count": 74
+    },
+    {
+      "glob": "skills/*/SKILL.md",
+      "old": "\nargument-hint: ",
+      "new": "\n# Source argument-hint: ",
+      "count": 74
+    },
+    {
+      "glob": "skills/**/*.md",
+      "old": ".claude/docs/",
+      "new": "<plugin-root>/shared/docs/",
+      "count": 89
+    },
+    {
+      "glob": "skills/**/*.md",
+      "old": ".claude/rules/",
+      "new": "<plugin-root>/shared/rules/",
+      "count": 6
+    },
+    {
+      "glob": "skills/**/*.md",
+      "old": ".claude/scripts/",
+      "new": "<plugin-root>/shared/scripts/",
+      "count": 23
+    },
+    {
+      "glob": "skills/**/*.md",
+      "old": ".claude/skills/",
+      "new": "<plugin-root>/skills/",
+      "count": 6
+    },
+    {
+      "glob": "skills/**/*.md",
+      "old": ".codex/docs/",
+      "new": "<plugin-root>/shared/docs/",
+      "count": 283
+    },
+    {
+      "glob": "skills/**/*.md",
+      "old": ".codex/rules/",
+      "new": "<plugin-root>/shared/rules/",
+      "count": 6
+    },
+    {
+      "glob": "skills/**/*.md",
+      "old": ".codex/scripts/",
+      "new": "<plugin-root>/shared/scripts/",
+      "count": 115
+    },
+    {
+      "glob": "skills/**/*.md",
+      "old": ".codex/skills/",
+      "new": "<plugin-root>/skills/",
+      "count": 90
+    },
+    {
+      "glob": "skills/**/*.md",
+      "old": ".codex/agents/",
+      "new": "<plugin-root>/skills/game-studio/references/roles/",
+      "count": 8
+    },
+    {
+      "glob": "skills/**/*.md",
+      "old": ".codex/hooks/",
+      "new": "<plugin-root>/shared/source-hooks/",
+      "count": 1
+    },
+    {
+      "glob": "skills/**/*.md",
+      "old": "${CLAUDE_SKILL_DIR}/../../hooks/",
+      "new": "<plugin-root>/shared/source-hooks/",
+      "count": 72
+    },
+    {
+      "glob": "skills/**/*.md",
+      "old": "${CLAUDE_SKILL_DIR}/../../scripts/",
+      "new": "<plugin-root>/shared/scripts/",
+      "count": 2
+    },
+    {
+      "glob": "skills/**/*.md",
+      "old": "AskUserQuestion",
+      "new": "ask the user when needed",
+      "count": 324
+    },
+    {
+      "glob": "skills/**/*.md",
+      "old": "subagent_type:",
+      "new": "role brief:",
+      "count": 73
+    },
+    {
+      "glob": "skills/**/*.md",
+      "old": "!`",
+      "new": "Source-only preprocessing (not executed): `",
+      "count": 73
+    },
+    {
+      "glob": "skills/**/*.md",
+      "old": "Resolved above — use as-is",
+      "new": "No source preprocessing ran. Resolve needed project configuration explicitly",
+      "count": 39
+    },
+    {
+      "glob": "shared/**/*.md",
+      "old": ".claude/docs/",
+      "new": "<plugin-root>/shared/docs/",
+      "count": 57
+    },
+    {
+      "glob": "shared/**/*.md",
+      "old": ".claude/rules/",
+      "new": "<plugin-root>/shared/rules/",
+      "count": 6
+    },
+    {
+      "glob": "shared/**/*.md",
+      "old": ".claude/scripts/",
+      "new": "<plugin-root>/shared/scripts/",
+      "count": 15
+    },
+    {
+      "glob": "shared/**/*.md",
+      "old": ".claude/skills/",
+      "new": "<plugin-root>/skills/",
+      "count": 11
+    },
+    {
+      "glob": "shared/**/*.md",
+      "old": ".claude/agents/",
+      "new": "<plugin-root>/skills/game-studio/references/roles/",
+      "count": 4
+    },
+    {
+      "glob": "shared/**/*.md",
+      "old": ".claude/hooks/",
+      "new": "<plugin-root>/shared/source-hooks/",
+      "count": 11
+    },
+    {
+      "glob": "shared/**/*.md",
+      "old": "${CLAUDE_SKILL_DIR}/../../hooks/",
+      "new": "<plugin-root>/shared/source-hooks/",
+      "count": 3
+    },
+    {
+      "glob": "shared/**/*.md",
+      "old": "AskUserQuestion",
+      "new": "ask the user when needed",
+      "count": 27
+    },
+    {
+      "glob": "shared/**/*.md",
+      "old": "!`",
+      "new": "Source-only preprocessing (not executed): `",
+      "count": 6
+    },
+    {
+      "glob": "skills/game-studio/references/roles/*.md",
+      "old": "The user approves all architectural decisions and file changes.",
+      "new": "Follow the current user's authorization for architectural decisions and file changes. Ask only for material choices or authorization that is missing.",
+      "count": 26
+    },
+    {
+      "glob": "skills/game-studio/references/roles/*.md",
+      "old": "The user approves all decisions and file changes.",
+      "new": "Follow the current user's authorization for decisions and file changes. Ask only for material choices or authorization that is missing.",
+      "count": 1
+    },
+    {
+      "glob": "skills/game-studio/references/roles/*.md",
+      "old": "Do not use Write/Edit until the user has said yes. Ask by ending your turn with the draft and the question; if you are a subagent, whoever called you puts it to the user",
+      "new": "Use file editing within the user's existing authorization. If authorization or a material choice is missing, present the draft and ask; a subagent asks through its caller",
+      "count": 46
+    },
+    {
+      "glob": "skills/prototype/references/5-implement.md",
+      "old": "Ask: \"May I create the prototype directory at `prototypes/[concept-name]-concept/`\nand begin implementation?\"\n\nIf yes, create the directory. Every file must begin with:",
+      "new": "Create `prototypes/[concept-name]-concept/` within the currently authorized prototype task.\nIf implementation has not been authorized, ask before proceeding. Every file must begin with:",
+      "count": 1
+    },
+    {
+      "glob": "skills/prototype/references/7-report.md",
+      "old": "Ask: \"May I write this report to `prototypes/[concept-name]-concept/REPORT.md`\nand add its row to `prototypes/index.md`?\"\n\nIf yes, write the file.",
+      "new": "Within the currently authorized prototype task, write the report to\n`prototypes/[concept-name]-concept/REPORT.md`. If report writing is outside the\nauthorized scope, obtain that authorization first.",
+      "count": 1
+    }
+  ],
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit|apply_patch",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"${PLUGIN_ROOT}/hooks/validate_assets.py\"",
+            "timeout": 10,
+            "statusMessage": "Checking changed JSON asset data"
+          }
+        ]
+      }
+    ]
+  },
+  "compatibility": [
+    {
+      "component": "skills",
+      "status": "adapted",
+      "reason": "74 source workflows and their full reference trees become native explicit-only skills. Existing game-studio router and measurement guides remain as maintained overrides."
+    },
+    {
+      "component": "agents",
+      "status": "adapted",
+      "reason": "49 specialist developer instructions become local role briefs. Use native generic subagents with these briefs; source model, tool, turn limits, and permission metadata do not configure Codex."
+    },
+    {
+      "component": "shared/docs and shared/rules",
+      "status": "reference-only",
+      "reason": "Retained domain guides, templates and standards load only when relevant. They are not installed as AGENTS.md or active host policy."
+    },
+    {
+      "component": "shared/scripts",
+      "status": "reference-only",
+      "reason": "35 project-template helpers are retained without activation. They depend on original paths and project state. Inspect before any separate execution."
+    },
+    {
+      "component": "source shell preprocessing",
+      "status": "adapted",
+      "reason": "Preprocessor command lines remain auditable text, never executed at install/build time. A common preamble requires explicit project-config reads and forbids claims that source injected configuration ran."
+    },
+    {
+      "component": "source permission and approval policy",
+      "status": "adapted",
+      "reason": "Existing user authorization and host permissions take precedence. Source per-file prompts and allowed-tools are not reinstalled or treated as new authorization gates. Product decisions and missing-input questions remain."
+    },
+    {
+      "component": "source statusLine and worktree settings",
+      "status": "unsupported",
+      "reason": "Source project-specific UI and checkout configuration are not installed in user settings."
+    },
+    {
+      "component": "validate-assets.sh",
+      "status": "adapted",
+      "reason": "A reviewed Python PostToolUse shim reuses the authored helper to report invalid changed JSON asset data. It is read-only, supports UTF-8 BOM and file/patch paths, and requires normal Codex hook trust. Source naming/budget enforcement is not claimed."
+    },
+    {
+      "component": "detect-gaps.sh",
+      "status": "reference-only",
+      "reason": "Retained under shared/source-hooks for provenance and inspection. Depends on original project-template state, source tool schemas, logs, guards, or authorization modes; not activated as a lifecycle handler."
+    },
+    {
+      "component": "log-agent-stop.sh",
+      "status": "reference-only",
+      "reason": "Retained under shared/source-hooks for provenance and inspection. Depends on original project-template state, source tool schemas, logs, guards, or authorization modes; not activated as a lifecycle handler."
+    },
+    {
+      "component": "log-agent.sh",
+      "status": "reference-only",
+      "reason": "Retained under shared/source-hooks for provenance and inspection. Depends on original project-template state, source tool schemas, logs, guards, or authorization modes; not activated as a lifecycle handler."
+    },
+    {
+      "component": "log-instructions.sh",
+      "status": "reference-only",
+      "reason": "Retained under shared/source-hooks for provenance and inspection. Depends on original project-template state, source tool schemas, logs, guards, or authorization modes; not activated as a lifecycle handler."
+    },
+    {
+      "component": "pre-compact.sh",
+      "status": "reference-only",
+      "reason": "Retained under shared/source-hooks for provenance and inspection. Depends on original project-template state, source tool schemas, logs, guards, or authorization modes; not activated as a lifecycle handler."
+    },
+    {
+      "component": "session-start.sh",
+      "status": "reference-only",
+      "reason": "Retained under shared/source-hooks for provenance and inspection. Depends on original project-template state, source tool schemas, logs, guards, or authorization modes; not activated as a lifecycle handler."
+    },
+    {
+      "component": "session-stop.sh",
+      "status": "reference-only",
+      "reason": "Retained under shared/source-hooks for provenance and inspection. Depends on original project-template state, source tool schemas, logs, guards, or authorization modes; not activated as a lifecycle handler."
+    },
+    {
+      "component": "validate-agent-artifact.sh",
+      "status": "reference-only",
+      "reason": "Retained under shared/source-hooks for provenance and inspection. Depends on original project-template state, source tool schemas, logs, guards, or authorization modes; not activated as a lifecycle handler."
+    },
+    {
+      "component": "validate-commit.sh",
+      "status": "reference-only",
+      "reason": "Retained under shared/source-hooks for provenance and inspection. Depends on original project-template state, source tool schemas, logs, guards, or authorization modes; not activated as a lifecycle handler."
+    },
+    {
+      "component": "validate-push.sh",
+      "status": "reference-only",
+      "reason": "Retained under shared/source-hooks for provenance and inspection. Depends on original project-template state, source tool schemas, logs, guards, or authorization modes; not activated as a lifecycle handler."
+    },
+    {
+      "component": "validate-read.sh",
+      "status": "reference-only",
+      "reason": "Retained under shared/source-hooks for provenance and inspection. Depends on original project-template state, source tool schemas, logs, guards, or authorization modes; not activated as a lifecycle handler."
+    },
+    {
+      "component": "validate-registry.sh",
+      "status": "reference-only",
+      "reason": "Retained under shared/source-hooks for provenance and inspection. Depends on original project-template state, source tool schemas, logs, guards, or authorization modes; not activated as a lifecycle handler."
+    },
+    {
+      "component": "validate-skill-change.sh",
+      "status": "reference-only",
+      "reason": "Retained under shared/source-hooks for provenance and inspection. Depends on original project-template state, source tool schemas, logs, guards, or authorization modes; not activated as a lifecycle handler."
+    },
+    {
+      "component": "validate-write.sh",
+      "status": "reference-only",
+      "reason": "Retained under shared/source-hooks for provenance and inspection. Depends on original project-template state, source tool schemas, logs, guards, or authorization modes; not activated as a lifecycle handler."
+    },
+    {
+      "component": "yaml-helper.sh",
+      "status": "reference-only",
+      "reason": "Retained under shared/source-hooks for provenance and inspection. Depends on original project-template state, source tool schemas, logs, guards, or authorization modes; not activated as a lifecycle handler."
+    },
+    {
+      "component": "notify.sh / Notification",
+      "status": "unsupported",
+      "reason": "The source Notification event and Windows PowerShell toast are not ported. The source script remains a reference."
+    },
+    {
+      "component": "update-check.sh",
+      "status": "reference-only",
+      "reason": "Source GitHub update queries and cache writes are not automatic. Upstream updates require deliberate pin changes and reviewed rebuilds."
+    },
+    {
+      "component": "tests/verify.py",
+      "status": "verified-by-fixture",
+      "reason": "Runs real helper/hook processes on disposable PNG/WAV/JSON assets and verifies prototype/audit evidence decisions survive conversion. Native Codex discovery and model execution are separate runtime checks."
+    },
+    {
+      "component": "count-checked transport patches",
+      "status": "adapted",
+      "reason": "Exact counted replacements resolve shared source paths, comment provider-specific frontmatter, mark shell preprocessing inactive, translate question/delegation names, and preserve domain paragraphs. Prototype file-writing uses current authorization without losing headers, reports, or verdict choices."
+    }
+  ],
+  "marketplace": "codex-game-studios",
+  "smoke_skills": [
+    "game-studio",
+    "prototype",
+    "asset-audit"
+  ],
+  "hook_fixture": {
+    "path": "assets/data/broken.json",
+    "content": "{broken",
+    "expected_feedback": "Asset JSON invalid",
+    "skill": "prototype",
+    "skill_contains": "real peers or simulated latency"
+  }
+}
